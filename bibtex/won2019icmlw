@@ -1,0 +1,6 @@
+@article{won2019icmlw,
+    title = {Visualizing and Understanding Self-attention based Music Tagging},
+    author = {Won, Minz and Chun, Sanghyuk and Serra, Xavier},
+    journal = {Machine Learning for Music Discovery Workshop. ICML Workshop},
+    year = {2019},
+}
