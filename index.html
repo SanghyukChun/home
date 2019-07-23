@@ -35,7 +35,7 @@
                 </div>
 
                 <div class="row mt-5">
-                    <ul>
+                    <ul style="padding-left: 1.5em;">
                         <li>Research Scientist at <a href="https://clova.ai/en/research/publications.html">Clova AI Research (CLAIR)</a> (Feb. 2018 - Now)</li>
                         <li>Research Engineer at advanced recommendation team (ART) in <a href="https://www.kakaocorp.com/">Kakao</a> (Feb. 2016 - Feb. 2018)</li>
                         <li>Research Internship at <a href="https://www.naverlabs.com/">Naver Labs</a> (Aug. 2015 - Dec. 2015)</li>
@@ -70,35 +70,30 @@
                 <hr>
 
                 <div class="row mb-2">
-                    <h2>Papers</h2>
+                    <h2>Conference and Workshop Papers</h2>
                 </div>
+
+                <div class="row row-papers row-classification-papers row-robust-papers"><p>
+                    <strong>CutMix: Regularization Strategy to Train Strong Classifiers with Localizable Features</strong> <span class="badge badge-warning">Classification</span> <span class="badge badge-success">Robustness and Uncertainty</span> <br />
+                    Sangdoo Yun, Dongyoon Han, Seong Joon Oh, <strong>Sanghyuk Chun</strong>, Junsuk Choe, Youngjoon Yoo<br />
+                    Accepted at IEEE International Conference on Computer Vision (ICCV) 2019<br />
+                    <span class="text-danger"><strong>Oral presentation (187/4303=4.3%)</strong></span><br />
+                    <a href="https://arxiv.org/abs/1905.04899">[paper]</a> <a href="https://github.com/ClovaAI/CutMix-PyTorch">[code]</a> <a href="https://clova-ai.blog/2019/07/15/cutmix-regularization-strategy-to-train-strong-classifiers-with-localizable-features/">[official blog post]</a> <a href="media/bibtex/yun2019cutmix.txt">[bibtex]</a>
+                </p></div>
+
+                <div class="row row-papers row-generative-papers"><p>
+                    <strong>Photorealistic Style Transfer via Wavelet Transforms</strong> <span class="badge badge-danger">Generative Models</span> <br />
+                    Jaejun Yoo<sup>*</sup>, Youngjung Uh<sup>*</sup>, <strong>Sanghyuk Chun</strong><sup>*</sup>, Byungkyu Kang, Jung-Woo Ha<br />
+                    (<sup>∗</sup>authors contributed equally)<br />
+                    Accepted at IEEE International Conference on Computer Vision (ICCV) 2019<br />
+                    <a href="https://arxiv.org/abs/1903.09760">[paper]</a> <a href="https://github.com/ClovaAI/WCT2">[code]</a> <a href="media/bibtex/yoo2019wct2.txt">[bibtex]</a>
+                </p></div>
 
                 <div class="row row-papers row-robust-papers"><p>
                     <strong>An Empirical Evaluation on Robustness and Uncertainty of Regularization methods</strong> <span class="badge badge-success">Robustness and Uncertainty</span> <br />
                     <strong>Sanghyuk Chun</strong>, Seong Joon Oh, Sangdoo Yun, Dongyoon Han, Junsuk Choe, Youngjoon Yoo <br />
                     Presented at International Conference on Machine Learning (ICML) 2019 <a href="https://sites.google.com/view/udlworkshop2019">Uncertainty &amp; Robustness in Deep Learning Workshop</a> <br />
                     <a href="http://www.gatsby.ucl.ac.uk/~balaji/udl2019/accepted-papers/UDL2019-paper-21.pdf">[paper]</a> <a href="media/bibtex/chun2019icmlw.txt">[bibtex]</a>
-                </p></div>
-
-                <div class="row row-papers row-classification-papers row-robust-papers"><p>
-                    <strong>CutMix: Regularization Strategy to Train Strong Classifiers with Localizable Features</strong> <span class="badge badge-warning">Classification</span> <span class="badge badge-success">Robustness and Uncertainty</span> <br />
-                    Sangdoo Yun, Dongyoon Han, Seong Joon Oh, <strong>Sanghyuk Chun</strong>, Junsuk Choe, Youngjoon Yoo <br />
-                    <em>arXiv</em> 2019. <br />
-                    <a href="https://arxiv.org/abs/1905.04899">[paper]</a> <a href="https://github.com/ClovaAI/CutMix-PyTorch">[code]</a> <a href="media/bibtex/yun2019cutmix.txt">[bibtex]</a>
-                </p></div>
-
-                <div class="row row-papers row-generative-papers"><p>
-                    <strong>Photorealistic Style Transfer via Wavelet Transforms</strong> <span class="badge badge-danger">Generative Models</span> <br />
-                    Jaejun Yoo<sup>*</sup>, Youngjung Uh<sup>*</sup>, <strong>Sanghyuk Chun</strong><sup>*</sup>, Byungkyu Kang, Jung-Woo Ha <br />
-                    <em>arXiv</em> 2019. <br />
-                    <a href="https://arxiv.org/abs/1903.09760">[paper]</a> <a href="https://github.com/ClovaAI/WCT2">[code]</a> <a href="media/bibtex/yoo2019wct2.txt">[bibtex]</a>
-                </p></div>
-
-                <div class="row row-papers row-classification-papers row-audio-papers"><p>
-                    <strong>Toward Interpretable Music Tagging with Self-attention</strong> <span class="badge badge-warning">Classification</span> <span class="badge badge-secondary">Audio Processing</span> <br />
-                    Minz Won, <strong>Sanghyuk Chun</strong>, Xavier Serra <br />
-                    <em>arXiv</em> 2019. <br />
-                    <a href="https://arxiv.org/abs/1906.04972">[paper]</a> <a href="http://github.com/minzwon/self-attention-music-tagging">[code]</a> <a href="media/bibtex/won2019attention.txt">[bibtex]</a>
                 </p></div>
 
                 <div class="row row-papers row-classification-papers row-audio-papers"><p>
@@ -111,28 +106,49 @@
                 <div class="row row-papers row-robust-papers"><p>
                     <strong>Where To Be Adversarial Perturbations Added? Investigating and Manipulating Pixel Robustness Using Input Gradients</strong> <span class="badge badge-success">Robustness and Uncertainty</span> <br />
                     Jisung Hwang<sup>*</sup>, Younghoon Kim<sup>*</sup>, <strong>Sanghyuk Chun</strong><sup>*</sup>, Jaejun Yoo, Ji-Hoon Kim, Dongyoon Han <br />
+                    (<sup>∗</sup>authors contributed equally)<br />
                     Presented at International Conference on Learning Representations<Paste> (ICLR) 2019 <a href="http://debug-ml-iclr2019.github.io/">Debugging Machine Learning Models Workshop</a> <br />
                     <a href="https://debug-ml-iclr2019.github.io/cameraready/DebugML-19_paper_4.pdf">[paper]</a> <a href="media/bibtex/hwang2019prm.txt">[bibtex]</a>
-                </p></div>
-
-                <div class="row row-papers row-audio-papers"><p>
-                    <strong>Multi-Domain Processing via Hybrid Denoising Networks for Speech Enhancement</strong> <span class="badge badge-secondary">Audio Processing</span> <br />
-                    Jang-Hyun Kim<sup>*</sup>, Jaejun Yoo<sup>*</sup>, <strong>Sanghyuk Chun</strong>, Adrian Kim, Jung-Woo Ha <br />
-                    <em>arXiv</em> 2018. <br />
-                    <a href="https://arxiv.org/abs/1812.08914">[paper]</a> <a href="https://mdphdnet.github.io/">[demo]</a> <a href="media/bibtex/kim2018mdphd.txt">[bibtex]</a>
                 </p></div>
 
                 <div class="row row-papers row-recsys-papers"><p>
                     <strong>A Study on Intelligent Personalized Push Notification with User History</strong> <span class="badge badge-info">Recommender Systems</span> <span class="badge badge-dark">Real-World Systems</span> <br />
                     Hyunjong Lee, Youngin Jo, <strong>Sanghyuk Chun</strong>, Kwangseob Kim <br />
-                    Presented at 2017 IEEE International Conference on Big Data (Big Data) <br />
+                    Presented at IEEE International Conference on Big Data (Big Data) 2017<br />
                     <a href="https://ieeexplore.ieee.org/abstract/document/8258081/">[paper]</a> <a href="media/bibtex/lee2017ippn.txt">[bibtex]</a>
                 </p></div>
+
+                <hr>
+
+                <div class="row mb-2">
+                    <h2>Preprints</h2>
+                </div>
+
+                <div class="row row-papers row-classification-papers row-audio-papers"><p>
+                    <strong>Toward Interpretable Music Tagging with Self-attention</strong> <span class="badge badge-warning">Classification</span> <span class="badge badge-secondary">Audio Processing</span> <br />
+                    Minz Won, <strong>Sanghyuk Chun</strong>, Xavier Serra <br />
+                    <em>arXiv</em> 2019. <br />
+                    <a href="https://arxiv.org/abs/1906.04972">[paper]</a> <a href="http://github.com/minzwon/self-attention-music-tagging">[code]</a> <a href="media/bibtex/won2019attention.txt">[bibtex]</a>
+                </p></div>
+
+                <div class="row row-papers row-audio-papers"><p>
+                    <strong>Multi-Domain Processing via Hybrid Denoising Networks for Speech Enhancement</strong> <span class="badge badge-secondary">Audio Processing</span> <br />
+                    Jang-Hyun Kim<sup>*</sup>, Jaejun Yoo<sup>*</sup>, <strong>Sanghyuk Chun</strong>, Adrian Kim, Jung-Woo Ha <br />
+                    (<sup>∗</sup>authors contributed equally)<br />
+                    <em>arXiv</em> 2018. <br />
+                    <a href="https://arxiv.org/abs/1812.08914">[paper]</a> <a href="https://mdphdnet.github.io/">[demo]</a> <a href="media/bibtex/kim2018mdphd.txt">[bibtex]</a>
+                </p></div>
+
+                <hr>
+
+                <div class="row mb-2">
+                    <h2>Thesis</h2>
+                </div>
 
                 <div class="row row-papers"><p>
                     <strong>Scalable Iterative Algorithm for Robust Subspace Clustering: Convergence and Initialization</strong> <br />
                     <strong>Sanghyuk Chun</strong> <br />
-                    Master Thesis (advised by Prof <a href="http://alinlab.kaist.ac.kr/shin.html">Jinwoo Shin</a>) <br />
+                    Master Thesis, Korea Advanced Institute of Science and Technology, 2016 (advised by Prof <a href="http://alinlab.kaist.ac.kr/shin.html">Jinwoo Shin</a>) <br />
                     <a href="file:///Users/user/Downloads/homepage/:%20http://library.kaist.ac.kr/thesis02/2016/2016M020143583_S1.pdf">[paper]</a> <a href="Github: http://github.com/SanghyukChun/SC_SI">[code]</a>
                 </p></div>
 
@@ -151,20 +167,25 @@
                 <div class="row mb-2">
                     <h2>Talks</h2>
                 </div>
-                <div class="row mb-5"><p>
-                    ICML 2019 Expo Workshop, <a href="https://europe.naverlabs.com/icml2019-expo-workshop-machine-learning-naver/">Recent Work on Machine Learning at NAVER</a> <br />
-                    ICLR 2019 Expo Talk, <a href="https://iclr.cc/ExpoConferences/2019/schedule?talk_id=3">Representation Learning to Rich AI Services in NAVER and LINE</a> <br />
-                </p></div>
+
+                <div class="row">
+                    <ul class="list-unstyled">
+                        <li>ICML 2019 Expo Workshop, <a href="https://europe.naverlabs.com/icml2019-expo-workshop-machine-learning-naver/">Recent Work on Machine Learning at NAVER</a></li>
+                        <li>ICLR 2019 Expo Talk, <a href="https://iclr.cc/ExpoConferences/2019/schedule?talk_id=3">Representation Learning to Rich AI Services in NAVER and LINE</a></li>
+                    </ul>
+                </div>
 
                 <hr>
 
                 <div class="row mb-2">
                     <h2>Education</h2>
                 </div>
-                <div class="row mb-5"><p>
-                    MS (2014.03 - 2016.02), School of Electrical Engineering, KAIST </br >
-                    BS (2009.03 - 2014.02), School of Electrical Engineering and School of Management Science (double major), KAIST
-                </p></div>
+                <div class="row mb-5">
+                    <ul class="list-unstyled">
+                        <li>MS (2014.03 - 2016.02), School of Electrical Engineering, KAIST</li>
+                        <li>BS (2009.03 - 2014.02), School of Electrical Engineering and School of Management Science (double major), KAIST</li>
+                    </ul>
+                </div>
 
             </div>
         </div>
