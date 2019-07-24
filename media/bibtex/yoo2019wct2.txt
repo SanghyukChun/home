@@ -1,6 +1,8 @@
-@article{yoo2019wct2,
+@inproceedings{yoo2019wct2,
     title={Photorealistic Style Transfer via Wavelet Transforms},
     author={Yoo, Jaejun and Uh, Youngjung and Chun, Sanghyuk and Kang, Byeongkyu and Ha, Jung-Woo},
-    journal={arXiv preprint arXiv:1903.09760},
-    year={2019}
+    booktitle = {International Conference on Computer Vision (ICCV)},
+    year={2019},
+    pubstate={published},
+    tppubtype={inproceedings}
 }

@@ -1,6 +1,8 @@
-@article{yun2019cutmix,
+@inproceedings{yun2019cutmix,
     title={CutMix: Regularization Strategy to Train Strong Classifiers with Localizable Features},
     author={Yun, Sangdoo and Han, Dongyoon and Oh, Seong Joon and Chun, Sanghyuk and Choe, Junsuk and Yoo, Youngjoon},
-    journal={arXiv preprint arXiv:1905.04899},
-    year={2019}
+    booktitle = {International Conference on Computer Vision (ICCV)},
+    year={2019},
+    pubstate={published},
+    tppubtype={inproceedings}
 }
