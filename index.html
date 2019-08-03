@@ -57,7 +57,7 @@
                 <hr>
 
                 <div class="row mb-2">
-                    <h2>Description</h2>
+                    <h2 id="desc">Description</h2>
                 </div>
                 <div class="row">
                     <p>I'm a research scientist at NAVER <a href="https://clova.ai/en/research/publications.html">Clova AI Research (CLAIR)</a>, working on machine learning and its applications. My research interests are in understanding leaned representations by machine learning models. Especially, I have focused on the robustness and the uncertainty estimation of deep models for a large-scale and high-dimensional dataset, e.g., computer vision. Although my recent works are mainly focused on computer vision, I have broad interests in general data domains, including music information retrieval, speech enhancement, natural language processing, and recommender systems.</p>
@@ -67,7 +67,7 @@
                 <hr>
 
                 <div class="row mb-2">
-                    <h2>Biography</h2>
+                    <h2 id="bio">Biography</h2>
                 </div>
                 <div class="row">
                     <p>I received a Master's degree in Electrical Engineering from KAIST (advised by Prof <a href="http://alinlab.kaist.ac.kr/shin.html">Jinwoo Shin</a>). During the Master's degree, I researched on <a href="http://library.kaist.ac.kr/thesis02/2016/2016M020143583_S1.pdf">a scalable algorithm for robust subspace clustering.</a></p>
@@ -79,7 +79,7 @@
                 <hr>
 
                 <div class="row mb-2">
-                    <h2>Conference and Workshop Papers</h2>
+                    <h2 id="papers">Conference and Workshop Papers</h2>
                 </div>
 
                 <div class="row row-papers row-classification-papers row-robust-papers">
@@ -142,7 +142,7 @@
                 <hr>
 
                 <div class="row mb-2">
-                    <h2>Preprints</h2>
+                    <h2 id="preprints">Preprints</h2>
                 </div>
 
                 <div class="row row-papers row-classification-papers row-audio-papers">
@@ -167,7 +167,7 @@
                 <hr>
 
                 <div class="row mb-2">
-                    <h2>Thesis</h2>
+                    <h2 id="thesis">Thesis</h2>
                 </div>
 
                 <div class="row row-papers">
@@ -182,7 +182,7 @@
                 <hr>
 
                 <div class="row mb-2">
-                    <h2>Misc.</h2>
+                    <h2 id="misc">Misc.</h2>
                 </div>
 
                 <div class="row">
@@ -193,7 +193,7 @@
                 <hr>
 
                 <div class="row mb-2">
-                    <h2>Industry Experience</h2>
+                    <h2 id="projects">Industry Experience</h2>
                 </div>
 
                 <div class="row mb-2">
@@ -231,7 +231,7 @@
                         <p>Feb. 2016 - Feb. 2018 <span class="badge badge-info">Recommender Systems</span> <span class="badge badge-dark">Real-World Systems</span></p>
                         <div>
                             <ul class="list-unstyled">
-                                <li>I developed and maintained a large-scale real-time recommender system (Toros) for various services in <a href="https://www.daum.net/">Daum</a> and <a href="https://www.kakaocorp.com/?lang=en">Kakao</a>. I mainly worked with content-based representation modeling (for textual, visual, and musical data), collaborative filtering modeling, user embedding, user clustering, and ranking system based on Multi-armed Bandit.</li>
+                                <li>I developed and maintained a large-scale real-time recommender system (<a href="https://archive.pycon.kr/2016apac/program/50">Toros</a>) for various services in <a href="https://www.daum.net/">Daum</a> and <a href="https://www.kakaocorp.com/?lang=en">Kakao</a>. I mainly worked with content-based representation modeling (for textual, visual, and musical data), collaborative filtering modeling, user embedding, user clustering, and ranking system based on Multi-armed Bandit.</li>
                                 <li><strong>Textual domain:</strong> <a href="https://media.daum.net/">Daum News</a> similar article recommendation, <a href="https://brunch.co.kr/">Brunch</a> (blog service) similar post recommendation, <a href="http://cafe.daum.net/">Daum Cafe</a> (community service) hit item recommendation.</li>
                                 <li><strong>Visual domain:</strong> <a href="http://webtoon.daum.net/">Daum Webtoon</a> and <a href="https://page.kakao.com/main">Kakao Page</a> similar item recommendation, video recommendation for a news article (cross-domain recommendation).</li>
                                 <li><strong>Musical domain:</strong> music recommendation for <a href="https://kakao.ai/product/kakaomini">Kakao Mini</a> (smart speaker), <a href="http://melon.com/">Melon</a> and <a href="https://www.kakaocorp.com/service/KakaoMusic?lang=en">Kakao Music</a></li>
@@ -330,7 +330,7 @@
                 <hr>
 
                 <div class="row mb-2">
-                    <h2>Talks</h2>
+                    <h2 id="talks">Talks</h2>
                 </div>
 
                 <div class="row">
@@ -344,7 +344,7 @@
                 <hr>
 
                 <div class="row mb-2">
-                    <h2>Education</h2>
+                    <h2 id="edu">Education</h2>
                 </div>
                 <div class="row mb-5">
                     <ul class="list-unstyled">
@@ -361,7 +361,12 @@
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="assets/js/anchor.min.js"></script>
         <script>
+            anchors.options = {
+                icon: '#'
+            };
+            anchors.add('h2');
             $('.collapse_btn').click(function(){
                 $(this).text(function(i, old){
                     if (old == 'hide') {
