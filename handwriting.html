@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-42711199-4"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'UA-42711199-4');
+        </script>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+        <link rel="icon" type="image/png" href="favicon.png">
+
+        <style>
+            @font-face{font-family:'sanghyukchun'; src:url('assets/NanumSanghyukchun.ttf')}
+        </style>
+
+
+        <title>Sanghyuk Chun - Clova AI Research</title>
+    </head>
+    <body>
+        <div class="jumbotron" style="padding: 2rem 2rem;">
+                <div class="mx-auto text-center mt-5 mb-3">
+                    <h1>Sanghyuk Chun</h1>
+                </div>
+
+                <div class="mx-auto text-center">
+                    <ul class="list-unstyled">
+                        <li>Research Scientist at Clova AI Research</li>
+                        <li>Email: sanghyuk.c [at] navercorp.com</li>
+                        <li><a href="https://scholar.google.co.kr/citations?user=4_uj0xcAAAAJ&hl=ko">[Google Scholar]</a> <a href="http://sanghyukchun.github.io/">[Blog]</a> <a href="media/CV_Sanghyuk_Chun_Public.pdf">[Curriculum Vitae]</a> (Last update: July 2019)</li>
+                    </ul>
+                </div>
+                </div>
+        <div style="width: 92%; margin:0 auto;">
+            <div class="container text-justify">
+                <div class="row mb-2">
+                    <h2 id="desc">Hangul Handwriting Font Generation</h2>
+                </div>
+
+                <div style="font-family:sanghyukchun; font-weight:normal; font-size:2em;" class="row">
+                    <a href="index.html">←  Go back to main page</a>
+                </div>
+
+                <div class="form-group">
+                    <label for="text_area">Type your sample text</label>
+                    <textarea class="form-control" id="text_area" rows="10">한글한글 아름답게 앞으로 쓰여질 우리의 이야기를 응원합니다.
+
+한글로 된 생각과 정보가 더욱 많아지기를 바라는 마음에서 한글한글 아름답게 캠페인을 진행해오고 있습니다.
+한글의 특성과 아름다움을 살린 나눔글꼴을 배포하고, 뜻깊은 이야기가 담긴 손글씨를 찾아 글꼴을 제작하는 손글씨 공모전을 개최하기도 했습니다.
+앞으로도 한글과 함께 걸으며 더 많은 사람들과 한글의 아름다움을 나누고자 합니다.</textarea>
+                </div>
+                <div class="row">
+                    <p id="text_content" style="font-family:sanghyukchun; font-weight:normal; font-size:2em;"></p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+        <script src="assets/js/anchor.min.js"></script>
+        <script>
+            // for font
+            $(document).ready(function() {
+                $("#text_content").html($("#text_area").val().replace(/\n/g, '<br>'));
+            });
+            $("#text_area").on("propertychange change keyup paste input", function() {
+                $("#text_content").html($(this).val().replace(/\n/g, '<br>'))
+            });
+        </script>
+    </body>
+</html>

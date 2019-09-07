@@ -19,6 +19,11 @@
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
         <link rel="icon" type="image/png" href="favicon.png">
 
+        <style>
+            @font-face{font-family:'sanghyukchun'; src:url('assets/NanumSanghyukchun.ttf')}
+        </style>
+
+
         <title>Sanghyuk Chun - Clova AI Research</title>
     </head>
     <body>
@@ -60,7 +65,7 @@
                     <h2 id="desc">Description</h2>
                 </div>
                 <div class="row">
-                    <p>I'm a research scientist at NAVER <a href="https://clova.ai/en/research/publications.html">Clova AI Research (CLAIR)</a>, working on machine learning and its applications. My research interests are in understanding leaned representations by machine learning models. Especially, I have focused on the robustness and the uncertainty estimation of deep models for a large-scale and high-dimensional dataset, e.g., computer vision. Although my recent works are mainly focused on computer vision, I have broad interests in general data domains, including music information retrieval, speech enhancement, natural language processing, and recommender systems.</p>
+                    <p>I'm a research scientist at NAVER <a href="https://clova.ai/en/research/publications.html">Clova AI Research (CLAIR)</a>, working on machine learning and its applications. My research interests are in understanding learned representations by machine learning models. Especially, I have focused on the robustness and the uncertainty estimation of deep models for a large-scale and high-dimensional dataset, e.g., computer vision. Although my recent works are mainly focused on computer vision, I have broad interests in general data domains, including music information retrieval, speech enhancement, natural language processing, and recommender systems.</p>
                     <p>One of my strong points is extensive experiences both in academic and industry; I worked as a software engineer in IUM-SOCIUS (web developer) and Kakao (software developer, research engineer). Also, I have experienced in various research areas: <span class="badge badge-success">Robustness and Uncertainty</span> <span class="badge badge-warning">Classification</span> <span class="badge badge-danger">Generative Models</span> <span class="badge badge-secondary">Audio Processing</span> <span class="badge badge-info">Recommender Systems</span> <span class="badge badge-dark">Real-World Systems</span></p>
                 </div>
 
@@ -194,6 +199,31 @@
 
                 <div class="row mb-2">
                     <h2 id="projects">Industry Experience</h2>
+                </div>
+
+                <div class="row mb-4">
+                    <div class="col-md-2">
+                        <figure class="figure">
+                            <img src="assets/img/project_hangul_event.png" width="100%" alt="Hangul" class="figure-img img-fluid rounded">
+                        </figure>
+                        <figure class="figure">
+                            <img src="assets/img/project_hangul_event2.png" width="100%" alt="Hangul" class="figure-img img-fluid rounded">
+                        </figure>
+                    </div>
+                    <div style="font-family:sanghyukchun; font-weight:normal; font-size:1.8em;" class="col-md-10">
+                        <div style="font-family:sanghyukchun; font-weight:bold; font-size:1.5em;">
+                            <p>Hangul Handwriting Font Generation</p>
+                        </div>
+                        <p>Will be distributed at 2019 Hangul's day (한글날) <span class="badge badge-danger">Generative Models</span> <span class="badge badge-dark">Real-World Systems</span></p>
+                        <div>
+                            <ul class="list-unstyled">
+                                <li>This section is written by generated font using my handwriting. You can play with my handwriting <a href="handwriting.html">here</a>. (이 섹션은 실제 제 손글씨로 생성한 폰트로 작성되었습니다. 제 손글씨 폰트는 <a href="handwriting.html">이 곳</a>에서 테스트해보실 수 있습니다.)</li>
+                                <li>Hangul (Korean alphabet, 한글) originally consisted of only 24 sub-letters (ㄱ, ㅋ, ㄷ, ㅌ, ㄴ, ㅂ, ㅍ, ㅁ, ㅈ, ㅊ, ㅅ, ㅎ, ㅇ, ㄹ, ㅡ, ㅣ, ㅗ, ㅏ, ㅜ, ㅓ, ㅛ, ㅑ, ㅠ, ㅕ), but by combining them, there exist 11,172 valid characters in Hangul. For example, "한" is a combination of ㅎ, ㅏ, and ㄴ, and "쐰" is a combination of ㅅ, ㅅ, ㅗ, ㅣ, and ㄴ. It makes generating a new Hangul font be very expensive and time-consuming. Meanwhile, <a href="https://hangeul.naver.com/2014/history">since 2008</a>, Naver has distributed Korean fonts for free (<a href="https://hangeul.naver.com/2017/nanum">Nanum fonts, 나눔 글꼴</a>).</li>
+                                <li>In 2019, we developed a technology for fully-personalized Hangul generation only with 152 characters. We opened <a href="https://clova.ai/handwriting">an event page</a> where users can submit their own handwriting. The generated fonts will be distributed at this Hangul's day.</li>
+                                <li>More details will be presented in <a href="https://deview.kr/2019/cfs">Deview 2019</a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
 
                 <div class="row mb-2">
