@@ -1,0 +1,6 @@
+@article{yoo2019nara,
+    title = {Neural Approximation of Auto-Regressive Process through Confidence Guided Skimming},
+    author = {Yoo, YoungJoon and Chun, Sanghyuk and Yun, Sangdoo and Ha, Jung-Woo and Yoo, Jaejun},
+    year = {2019},
+    journal = {arXiv},
+}
