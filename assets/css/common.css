@@ -1,0 +1,35 @@
+.list-publication {
+    list-style: none;
+    counter-reset: arxivcounter 5 confcounter 4 wscounter 5;
+    padding-left: 0;
+}
+
+.li-arxiv:before {
+    counter-increment: arxivcounter -1;
+    content: '[A' counter(arxivcounter) "] ";
+    font-weight: bold;
+}
+
+.li-conference:before {
+    counter-increment: confcounter -1;
+    content: '[C' counter(confcounter) "] ";
+    font-weight: bold;
+}
+
+.li-workshop:before {
+    counter-increment: wscounter -1;
+    content: '[W' counter(wscounter) "] ";
+    font-weight: bold;
+}
+
+.li-conference-workshop:before {
+    counter-increment: confcounter -1;
+    counter-increment: wscounter -1;
+    content: '[C' counter(confcounter) '/W' counter(wscounter) "] ";
+    font-weight: bold;
+}
+
+.li-others:before {
+    content: '[O]';
+    font-weight: bold;
+}

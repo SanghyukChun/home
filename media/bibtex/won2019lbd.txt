@@ -1,0 +1,6 @@
+@inproceedings{won2019lbd,
+    title = {Automatic Music Tagging with Harmonic CNN},
+    author = {Won, Minz and Chun, Sanghyuk and Nieto, Oriol and Serra, Xavier},
+    booktitle={Late Breaking Demo in the International Society for Music Information Retrieval Conf},
+    year = {2019},
+}
