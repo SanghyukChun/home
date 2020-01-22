@@ -1,6 +1,6 @@
 .list-publication {
     list-style: none;
-    counter-reset: arxivcounter 5 confcounter 4 wscounter 5;
+    counter-reset: arxivcounter 6 confcounter 4 wscounter 5;
     padding-left: 0;
 }
 
