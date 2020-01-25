@@ -1,0 +1,6 @@
+@article{won2019harmonic,
+    title = {Data-driven Harmonic Filters for Audio Representation Learning},
+    author = {Won, Minz and Chun, Sanghyuk and Nieto, Oriol and Serra, Xavier},
+    year = {2019},
+    journal = {arXiv},
+}
