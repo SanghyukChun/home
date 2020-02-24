@@ -1,6 +1,6 @@
 @inproceedings{won2020harmonic
-    title = {Data-driven Harmonic Filters for Audio Representation Learning},
-    author = {Won, Minz and Chun, Sanghyuk and Nieto, Oriol and Serra, Xavier},
-    booktitle = {International Conference on Acoustics, Speech, and Signal Processing (ICASSP)},
-    year={2020}
+    title={Data-driven Harmonic Filters for Audio Representation Learning},
+    author={Won, Minz and Chun, Sanghyuk and Nieto, Oriol and Serra, Xavier},
+    year={2020},
+    booktitle={International Conference on Acoustics, Speech, and Signal Processing (ICASSP)},
 }

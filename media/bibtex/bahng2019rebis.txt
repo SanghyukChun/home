@@ -1,6 +1,6 @@
-@article{bahng2019rebis,
-    title = {Learning De-biased Representations with Biased Representations},
-    author = {Bahng, Hyojin and Chun, Sanghyuk and Yun, Sangdoo and Choo, Jaegul and Oh, Seong Joon},
-    year = {2019},
-    journal = {arXiv},
+@article{bahng2019rebias,
+    title={Learning De-biased Representations with Biased Representations},
+    author={Bahng, Hyojin and Chun, Sanghyuk and Yun, Sangdoo and Choo, Jaegul and Oh, Seong Joon},
+    year={2019},
+    journal={arXiv preprint arXiv:1910.02806},
 }

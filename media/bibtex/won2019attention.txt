@@ -1,6 +1,6 @@
 @article{won2019attention,
     title={Toward Interpretable Music Tagging with Self-Attention},
     author = {Won, Minz and Chun, Sanghyuk and Serra, Xavier},
+    year={2019},
     journal={arXiv preprint arXiv:1906.04972},
-    year={2019}
 }
