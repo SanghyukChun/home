@@ -1,4 +1,4 @@
-@inproceedings{won2020harmonic
+@inproceedings{won2020harmonic,
     title={Data-driven Harmonic Filters for Audio Representation Learning},
     author={Won, Minz and Chun, Sanghyuk and Nieto, Oriol and Serra, Xavier},
     year={2020},
