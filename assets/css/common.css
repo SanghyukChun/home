@@ -1,3 +1,25 @@
+@media (max-width: 576px) {
+    div.card-mobile-hide {
+        border: 0px;
+    }
+    div.card-mobile-hide > .card-body {
+        padding: 0;
+    }
+}
+
+div.container-wrapper {
+    width: 92%;
+    margin:0 auto;
+}
+
+div.p2rem {
+    padding: 2rem 2rem;
+}
+
+ul.pl15 {
+    padding-left: 1.5em;
+}
+
 .li-arxiv:before {
     counter-increment: arxivcounter -1;
     content: '[A' counter(arxivcounter) "] ";
