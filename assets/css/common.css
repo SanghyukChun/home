@@ -1,9 +1,3 @@
-.list-publication {
-    list-style: none;
-    counter-reset: arxivcounter 5 confcounter 6 wscounter 5;
-    padding-left: 0;
-}
-
 .li-arxiv:before {
     counter-increment: arxivcounter -1;
     content: '[A' counter(arxivcounter) "] ";
