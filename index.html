@@ -62,14 +62,14 @@
                 <div class="card card-mobile-hide mb-4">
                     <div class="card-body">
                         <p>I'm a research scientist at NAVER <a href="https://clova-ai.blog/publication-list">Clova AI Research (CLAIR)</a>, working on machine learning and its applications. Prior to working at NAVER, I worked as a research engineer at advanced recommendation team (ART) in <a href="https://www.kakaocorp.com/">Kakao</a> from 2016 to 2018.</p>
-                        <p class="mb-0">I received a master's degree in Electrical Engineering from Korea Advanced Institute of Science and Technology (KAIST) in 2016. During the master's degree, I researched on <a href="http://library.kaist.ac.kr/thesis02/2016/2016M020143583_S1.pdf">a scalable algorithm for robust subspace clustering.</a> Before my master's study, I worked at <a href="http://i-um.com/">IUM-SOCIUS</a> in 2012 as a software engineering internship. I also did a research internship at <a href="http://www.ndsl.kaist.edu/">Networked and Distributed Computing System Lab</a> in KAIST and <a href="https://www.naverlabs.com/">NAVER Labs</a> during summer 2013 and fall 2015, respectively.</p>
+                        <p class="mb-0">I received a master's degree in Electrical Engineering from Korea Advanced Institute of Science and Technology (KAIST) in 2016. During the master's degree, I researched on <a href="http://library.kaist.ac.kr/thesis02/2016/2016M020143583_S1.pdf">a scalable algorithm for robust subspace clustering</a> (the alogirhtm is based on robust PCA and k-means clustering). Before my master's study, I worked at <a href="http://i-um.com/">IUM-SOCIUS</a> in 2012 as a software engineering internship. I also did a research internship at <a href="http://www.ndsl.kaist.edu/">Networked and Distributed Computing System Lab</a> in KAIST and <a href="https://www.naverlabs.com/">NAVER Labs</a> during summer 2013 and fall 2015, respectively.</p>
                     </div>
                 </div>
 
                 <h3 id="research">Research Interests</h3>
                 <div class="card card-mobile-hide mb-4">
                     <div class="card-body">
-                        <p class="mb-0">My research goal is to understand unexpected and less interpretable behaviors of machine learning (ML) models and to solve the problems in both practical and provable manners. In particular, I believe that it is important to solve four main research topics: (i) Understanding machine learning models by explainable ML, (ii) Building generalizable models to different biases, corruptions, or domains, (iii) Developing probabilistic machines with well-calibrated uncertainty measurement, (iv) Overcoming insufficient labeled data points by learning with minimal human supervision.</p>
+                        <p><strong>Reliable machine learning with limited supervision.</strong> Real-world machine learning models often suffer from unreliability issues; (1) the lack of generalizability to unseen biases or corruptions, (2) improper uncertainty estimation, (3) their decisions are not explainable to humans. To achieve reliable machine decisions, we need a large number of annotations in every possible situation, e.g., traffic signs with every possible weather condition, which is highly impractical and unachievable in most cases. Instead of collecting or generating all possible situations, my research interests focus on developing reliable machine learning models with only limited human supervision. In particular, I am interested in the following types of supervision: (1) human inductive bias without additional labeling, (2) extra multi-modal information related to the original task, (3) weak supervision, or semi-supervision which requires a reasonable number of additional annotations.</p>
                     </div>
                 </div>
 
@@ -94,7 +94,7 @@
                 <h3 id="papers">Publications</h3>
                 <p>
                     <strong>(C: peer-reviewed conference, W: peer-reviewed workshop, A: arxiv preprint, O: others)<br>
-                    (<sup>∗</sup>authors contributed equally)</strong><br>
+                    <span class="text-danger">(<sup>&#10059;</sup>authors contributed equally)</strong></span><br>
                     See also at my <a href="https://scholar.google.co.kr/citations?user=4_uj0xcAAAAJ">Google Scholar</a>.
                 </p>
 
@@ -128,7 +128,7 @@
                         <li class="list-group-item li-conference">
                             <strong>Evaluating Weakly Supervised Object Localization Methods Right.</strong>
                             <ul>
-                                <li>Junsuk Choe<sup>*</sup>, Seong Joon Oh<sup>*</sup>, Seongho Lee, <strong>Sanghyuk Chun</strong>, Zeynep Akata, Hyunjung Shim</li>
+                                <li>Junsuk Choe<sup>&#10059;</sup>, Seong Joon Oh<sup>&#10059;</sup>, Seongho Lee, <strong>Sanghyuk Chun</strong>, Zeynep Akata, Hyunjung Shim</li>
                                 <li><strong><em>CVPR 2020.</em></strong></li>
                                 <li><a href="https://arxiv.org/abs/2001.07437">[paper]</a> <a href="https://github.com/ClovaAI/wsolevaluation">[code]</a> <a href="media/bibtex/choe2020wsoleval.txt">[bibtex]</a></li>
                             </ul>
@@ -174,7 +174,7 @@
                         <li class="list-group-item li-conference">
                             <strong>Photorealistic Style Transfer via Wavelet Transforms.</strong>
                             <ul>
-                                <li>Jaejun Yoo<sup>*</sup>, Youngjung Uh<sup>*</sup>, <strong>Sanghyuk Chun</strong><sup>*</sup>, Byungkyu Kang, Jung-Woo Ha</li>
+                                <li>Jaejun Yoo<sup>&#10059;</sup>, Youngjung Uh<sup>&#10059;</sup>, <strong>Sanghyuk Chun</strong><sup>&#10059;</sup>, Byungkyu Kang, Jung-Woo Ha</li>
                                 <li><strong><em>ICCV 2019.</em></strong></li>
                                 <li><a href="https://arxiv.org/abs/1903.09760">[paper]</a> <a href="https://github.com/ClovaAI/WCT2">[code]</a> <a href="https://youtu.be/o-AgHt1VA30">[video stylization results]</a> <a href="https://clova-ai.blog/2019/08/06/photorealistic-style-transfer-via-wavelet-transforms-iccv-2019/">[official blog post]</a> <a href="https://sanghyukchun.github.io/home/media/bibtex/yoo2019wct2.txt">[bibtex]</a></li>
                             </ul>
@@ -206,7 +206,7 @@
                         <li class="list-group-item li-workshop">
                             <strong>Where To Be Adversarial Perturbations Added? Investigating and Manipulating Pixel Robustness Using Input Gradients.</strong>
                             <ul>
-                                <li>Jisung Hwang<sup>*</sup>, Younghoon Kim<sup>*</sup>, <strong>Sanghyuk Chun</strong><sup>*</sup>, Jaejun Yoo, Ji-Hoon Kim, Dongyoon Han</li>
+                                <li>Jisung Hwang<sup>&#10059;</sup>, Younghoon Kim<sup>&#10059;</sup>, <strong>Sanghyuk Chun</strong><sup>&#10059;</sup>, Jaejun Yoo, Ji-Hoon Kim, Dongyoon Han</li>
                                 <li><strong><em>ICLR Workshop 2019.</em></strong></li>
                                 <li><a href="https://debug-ml-iclr2019.github.io/cameraready/DebugML-19_paper_4.pdf">[paper]</a> <a href="media/bibtex/hwang2019prm.txt">[bibtex]</a></li>
                             </ul>
@@ -220,7 +220,7 @@
                         <li class="list-group-item li-arxiv">
                             <strong>Multi-Domain Processing via Hybrid Denoising Networks for Speech Enhancement.</strong>
                             <ul>
-                                <li>Jang-Hyun Kim<sup>*</sup>, Jaejun Yoo<sup>*</sup>, <strong>Sanghyuk Chun</strong>, Adrian Kim, Jung-Woo Ha</li>
+                                <li>Jang-Hyun Kim<sup>&#10059;</sup>, Jaejun Yoo<sup>&#10059;</sup>, <strong>Sanghyuk Chun</strong>, Adrian Kim, Jung-Woo Ha</li>
                                 <li><strong><em>arXiv 2018.</em></strong></li>
                                 <li><a href="https://arxiv.org/abs/1812.08914">[paper]</a> <a href="https://mdphdnet.github.io/">[project page]</a> <a href="media/bibtex/kim2018mdphd.txt">[bibtex]</a></li>
                             </ul>
@@ -243,10 +243,10 @@
                     </ul>
                 </div>
 
-                <h3 id="projects">Industry Experience</h2>
+                <h3 id="projects">Industry Experience</h3>
 
                 <div class="card mb-4">
-                    <h5 class="card-header" id="experience-in-naver">NAVER Clova AI Research (2018 ~ Now)</h3>
+                    <h5 class="card-header" id="experience-in-naver">NAVER Clova AI Research (2018 ~ Now)</h5>
                     <ul class="list-group list-group-flush">
                         <li class="list-group-item">
                             <div class="row m-3">
@@ -257,15 +257,18 @@
                                     <figure class="figure">
                                         <img src="assets/img/project_hangul_event2.png" width="100%" alt="Hangul" class="figure-img img-fluid rounded">
                                     </figure>
+                                    <figure class="figure">
+                                        <img src="assets/img/dmfont-teaser.gif" width="100%" alt="DM-Font teasor" class="figure-img img-fluid rounded">
+                                    </figure>
                                 </div>
                                 <div class="col-md-10">
                                     <strong>Hangul Handwriting Font Generation</strong>
                                     <p>Distributed at 2019 Hangul's day (한글날), <a href="https://clova.ai/handwriting/list.html">[Full font list]</a></p>
                                     <ul class="list-unstyled">
-                                        <li>Hangul (Korean alphabet, 한글) originally consists of only 24 sub-letters (ㄱ, ㅋ, ㄴ, ㄷ, ㅌ, ㅁ, ㅂ, ㅍ, ㄹ, ㅅ, ㅈ, ㅊ, ㅇ, ㅎ, ㅡ, ㅣ, ㅗ, ㅏ, ㅜ, ㅓ, ㅛ, ㅑ, ㅠ, ㅕ), but by combining them, there exist 11,172 valid characters in Hangul. For example, "한" is a combination of ㅎ, ㅏ, and ㄴ, and "쐰" is a combination of ㅅ, ㅅ, ㅗ, ㅣ, and ㄴ. It makes generating a new Hangul font be very expensive and time-consuming. Meanwhile, <a href="https://hangeul.naver.com/2014/history">since 2008</a>, Naver has distributed Korean fonts for free (<a href="https://hangeul.naver.com/2017/nanum">Nanum fonts, 나눔 글꼴</a>).</li>
-                                        <li>In 2019, we developed a technology for fully-personalized Hangul generation only with 152 characters. We opened <a href="https://clova.ai/handwriting">an event page</a> where users can submit their own handwriting. The full generated font list can be found in <a href="https://clova.ai/handwriting/list.html">[this link]</a>.</li>
-                                        <li>More details was presented in <a href="https://deview.kr/2019/schedule/294">Deview 2019</a>. Also, we extend our work to few-shot generation.</li>
-                                        <li><strong>[BONUS] You can play with my handwriting <a href="handwriting.html">here</a></strong></li>
+                                        <li>Hangul (Korean alphabet, 한글) originally consists of only 24 sub-letters (ㄱ, ㅋ, ㄴ, ㄷ, ㅌ, ㅁ, ㅂ, ㅍ, ㄹ, ㅅ, ㅈ, ㅊ, ㅇ, ㅎ, ㅡ, ㅣ, ㅗ, ㅏ, ㅜ, ㅓ, ㅛ, ㅑ, ㅠ, ㅕ), but by combining them, there exist 11,172 valid characters in Hangul. For example, "한" is a combination of ㅎ, ㅏ, and ㄴ, and "쐰" is a combination of ㅅ, ㅅ, ㅗ, ㅣ, and ㄴ. It makes generating a new Hangul font be very expensive and time-consuming. Meanwhile, <a href="https://hangeul.naver.com/2014/history">since 2008</a>, Naver has distributed Korean fonts for free (named <a href="https://hangeul.naver.com/2017/nanum">Nanum fonts, 나눔 글꼴</a>).</li>
+                                        <li>In 2019, we developed a technology for fully-personalized Hangul generation only with 152 characters. We opened <a href="https://clova.ai/handwriting">an event page</a> where users can submit their own handwriting. The full generated font list can be found in <a href="https://clova.ai/handwriting/list.html">[this link]</a>. Details for the generation technique used for the service was presented in Deview 2019 <a href="https://deview.kr/2019/schedule/294">[Link]</a>.</li>
+                                        <li>This work was also extended to the few-shot generation based on the compositionality. See the papers in AI for Content Creation Workshop (AICCW) at CVPR 2020 (short paper) <a href="http://visual.cs.brown.edu/aicc2020/pubs/AICCW2020_ExtendedAbstract_ChaEtAl_TowardsHigh-qualityFew-shotFontGenerationWithDualMemory.pdf">[Link]</a> and arXiv (full paper) <a href="https://arxiv.org/abs/2005.10510">[Link]</a>.</li>
+                                        <li class="text-danger"><strong>[BONUS] You can play with my handwriting <a href="handwriting.html">here</a></strong></li>
                                     </ul>
                                 </div>
                             </div>
@@ -310,7 +313,7 @@
                                         <li>I developed and maintained a large-scale real-time recommender system (Toros <a href="https://archive.pycon.kr/2016apac/program/50">[PyCon Talk]</a> <a href="https://brunch.co.kr/@kakao-it/72">[AI Report]</a>) for various services in <a href="https://www.daum.net/">Daum</a> and <a href="https://www.kakaocorp.com/?lang=en">Kakao</a>. I mainly worked with content-based representation modeling (for textual, visual, and musical data), collaborative filtering modeling, user embedding, user clustering, and ranking system based on Multi-armed Bandit.</li>
                                         <li><strong>Textual domain:</strong> <a href="https://media.daum.net/">Daum News</a> similar article recommendation, <a href="https://brunch.co.kr/">Brunch</a> (blog service) similar post recommendation, <a href="http://cafe.daum.net/">Daum Cafe</a> (community service) hit item recommendation.</li>
                                         <li><strong>Visual domain:</strong> <a href="http://webtoon.daum.net/">Daum Webtoon</a> and <a href="https://page.kakao.com/main">Kakao Page</a> similar item recommendation, video recommendation for a news article (cross-domain recommendation).</li>
-                                        <li><strong>Musical domain:</strong> music recommendation for <a href="https://kakao.ai/product/kakaomini">Kakao Mini</a> (smart speaker), <a href="http://melon.com/">Melon</a> and <a href="https://www.kakaocorp.com/service/KakaoMusic?lang=en">Kakao Music</a></li>
+                                        <li><strong>Audio domain:</strong> music recommendation for <a href="https://kakao.ai/product/kakaomini">Kakao Mini</a> (smart speaker), <a href="http://melon.com/">Melon</a> and <a href="https://www.kakaocorp.com/service/KakaoMusic?lang=en">Kakao Music</a>.</li>
                                         <li><strong>Online to offline:</strong> <a href="https://www.kakaocorp.com/service/KakaoHairShop?lang=en">Kakao Hairshop</a> style recommendation.</li>
                                     </ul>
                                 </div>
@@ -329,7 +332,7 @@
                                     <strong>Personalized Push Notification with User History (Daum, Kakao Page)</strong>
                                     <p>Deployed in 2017</p>
                                     <ul class="list-unstyled">
-                                        <li>I researched and developed personalized item application push system. Our personalized recommender system finds user's interest based on their activity in services. The system has been applied to Daum an Kakao Page mobile applications. More details are in <a href="https://ieeexplore.ieee.org/abstract/document/8258081/">our paper</a>.</li>
+                                        <li>The mobile push service (or alert system) is widely-used in mobile applications to attain a high user retention rate. However, a freqeunt push notification makes a user feel fatigue, resulting on the application removal. Usually, the push notification system is a rule-based system, and managed by human labor. In this project, we researched and developed a personalized push notification system based on user activity and interests. The system has been applied to Daum an Kakao Page mobile applications. More details are in <a href="https://ieeexplore.ieee.org/abstract/document/8258081/">our paper</a>.</li>
                                     </ul>
                                 </div>
                             </div>
@@ -346,7 +349,7 @@
                                     <strong>Large-Scale Item Categorization in e-Commerce (Daum Shopping)</strong>
                                     <p>Deployed in 2017</p>
                                     <ul class="list-unstyled">
-                                        <li>I developed a large-scale item categorization system for <a href="http://shopping.daum.net/">Daum Shopping</a>. The problem is challenging because of its web-scale data size, unbalanced label distribution, and noisy label. We served operation tools and the categorization API using deep learning based item categorization model.</li>
+                                        <li>An accurate categorization helps users to search desired items in e-Commerce based on the category, e.g., clothes / shoes / sneakers. However, the categorization is usually performed based on rule-based systems or human labor, which leads to low coverage of categorized items. Even the automatic item categorization is difficult due to its web-scale data size, the highly unbalanced annotation distribution, and noisy labels. I developed a large-scale item categorization system for <a href="http://shopping.daum.net/">Daum Shopping</a> based on a deep network, from the operation tool to the categorization API.</li>
                                     </ul>
                                 </div>
                             </div>
@@ -365,11 +368,10 @@
                                     </figure>
                                 </div>
                                 <div class="col-md-10">
-                                    <strong>Research on deep learning normalization (Naver Labs)</strong>
+                                    <strong>Research internship (Naver Labs)</strong>
                                     <p>Aug. 2015 - Dec. 2015</p>
                                     <ul class="list-unstyled">
-                                        <li>During my research internship in Naver Labs, I mainly worked with Batch Normalization (BN) techniques using C++ Caffe framework <a href="http://github.com/SanghyukChun/caffe">[code]</a> and Lua Torch framework. I tested the implemented BN to AlexNet, Inceptionv2 and VGG architectures at ImageNet datasets</li>
-                                        <li>I researched on normalization techniques for sequential dataset, namely RNN.</li>
+                                        <li>During the internship, I implemented batch normalization (BN) to AlexNet, Inception v2 and VGG on ImageNet using Caffe. I also researched batch normalization for sequential models, e.g., RNN using Lua Torch.</li>
                                     </ul>
                                 </div>
                             </div>
@@ -383,11 +385,10 @@
                                     </figure>
                                 </div>
                                 <div class="col-md-10">
-                                    <strong>Web developer (IUM-SOCIUS)</strong>
+                                    <strong>Software engineer (IUM-SOCIUS)</strong>
                                     <p>Jun. 2012 - Jan. 2013</p>
                                     <ul class="list-unstyled">
-                                        <li>I worked as web developer at IUM-SOCIUS. I developed and maintained internal admin tools and main service systems based on JAVA spring and Ruby on Rails.</li>
-                                        <li>I also developed and maintained internal tools including batch jobs (JAVA spring batch), internal statistic service (Python Django, MongoDB).</li>
+                                        <li>I worked as web developer at IUM-SOCIUS. During the internship, I developed and maintained internal batch services (JAVA spring batch), internal statistics service (Python Flask, MongoDB), internal admin tools (Python Django, MySQL), and main service systems (JAVA spring, Ruby on Rails, MariaDB).</li>
                                     </ul>
                                 </div>
                             </div>
