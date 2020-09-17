@@ -1,6 +1,6 @@
 @article{cha2020dmfontw,
     title={Toward High-quality Few-shot Font Generation with Dual Memory},
-    author={Cha, Junbum and Chun, Sanghyuk and Lee, Gayoung and Lee, Bado Lee and Kim, Seonghyeon and Lee, Hwalsuk},
+    author={Cha, Junbum and Chun, Sanghyuk and Lee, Gayoung and Lee, Bado and Kim, Seonghyeon and Lee, Hwalsuk},
     year={2020},
     journal={AI for Content Creation Workshop. CVPR Workshop},
 }
