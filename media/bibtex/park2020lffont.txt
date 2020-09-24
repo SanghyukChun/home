@@ -1,0 +1,6 @@
+@article{park2020lffont,
+    title={Few-shot Font Generation with Localized Style Representations and Factorization},
+    author={Park, Song and Chun, Sanghyuk and Cha, Junbum and Lee, Bado and Shim, Hyunjung},
+    year={2020},
+    journal={arXiv preprint arXiv:2009.11042},
+}
