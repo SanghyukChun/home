@@ -2,5 +2,5 @@
     title={Visualizing and Understanding Self-attention based Music Tagging},
     author={Won, Minz and Chun, Sanghyuk and Serra, Xavier},
     year={2019},
-    journal={Machine Learning for Music Discovery Workshop. ICML Workshop},
+    journal={ICML Workshop on Machine Learning for Music Discovery},
 }
