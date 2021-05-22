@@ -39,8 +39,7 @@ ul.pl15 {
 }
 
 .li-conference-workshop:before {
-    counter-increment: confcounter -1;
-    counter-increment: wscounter -1;
+    counter-increment: confcounter -1 wscounter -1;
     content: '[C' counter(confcounter) '/W' counter(wscounter) "] ";
     font-weight: bold;
 }

@@ -67,7 +67,8 @@
                 <div class="card card-mobile-hide mb-5">
                     <div class="card-body">
                         <ul class="pl15 mb-0">
-                            <li>_4/2020 : 1 paper <sup><a href="#toward-high-quality-few-shot-font-generation-with-localized-styl">[LF-Font workshop]</a></sup> is accepted at CVPR 2021 workshop.</li>
+                            <li>_5/2020 : Receiving <strong><span class="text-danger">an outstanding reviewer award</span></strong> at CVPR 2021.</li>
+                            <li>_4/2020 : 1 paper <sup><a href="#few-shot-font-generation-with-localized-style-representations-an">[LF-Font]</a></sup> is accepted at CVPR 2021 workshop (also appeared at AAAI).</li>
                             <li>_3/2021 : 2 papers <sup><a href="#probabilistic-embeddings-for-cross-modal-retrieval">[PCME]</a></sup> <sup><a href="#re-labeling-imagenet-from-single-to-multi-labels-from-global-to">[ReLabel]</a></sup> are accepted at CVPR 2021.</li>
                             <li>_1/2021 : 1 paper <sup><a href="#adamp-slowing-down-the-slowdown-for-momentum-optimizers-on-scale">[AdamP]</a></sup> is accepted at ICLR 2021.</li>
                             <li>12/2020 : 1 paper <sup><a href="#few-shot-font-generation-with-localized-style-representations-an">[LF-Font]</a></sup> is accepted at AAAI 2021.</li>
@@ -144,14 +145,6 @@
                         <div class="clearfix"></div>
                     </div>
                     <ul class="list-group list-group-flush">
-                        <li class="list-group-item li-workshop">
-                            <strong class="anchor-strong">Toward High-quality Few-shot Font Generation with Localized Style Representation and Factorization.</strong>
-                            <ul>
-                                <li>Song Park<sup>&#10059;</sup>, <strong>Sanghyuk Chun</strong><sup>&#10059;</sup>, Junbum Cha, Bado Lee, Hyunjung Shim</li>
-                                <li><strong><em>CVPR Workshop 2021.</em></strong> TBA | See <a href="#few-shot-font-generation-with-localized-style-representations-an">LF-Font</a> for the details.</li>
-                            </ul>
-                        </li>
-
                         <li class="list-group-item li-arxiv">
                             <strong class="anchor-strong">Rethinking Spatial Dimensions of Vision Transformers.</strong>
                             <ul>
@@ -192,7 +185,7 @@
                             </ul>
                         </li>
 
-                        <li class="list-group-item li-conference">
+                        <li class="list-group-item li-conference-workshop">
                             <strong class="anchor-strong">Few-shot Font Generation with Localized Style Representations and Factorization.</strong>
                             <ul>
                                 <li>Song Park<sup>&#10059;</sup>, <strong>Sanghyuk Chun</strong><sup>&#10059;</sup>, Junbum Cha, Bado Lee, Hyunjung Shim</li>
@@ -365,12 +358,11 @@
                         <ul class="list-unstyled mb-0">
                             <li><strong> Reviewer:</strong>
                                 <ul>
-                                    <li>ICCV 2021</li>
                                     <li>ICML 2021</li>
                                     <li>NeurIPS 2020, 2021</li>
                                     <li>ICLR 2021</li>
                                     <li>AAAI 2021</li>
-                                    <li>CVPR 2020 (<strong class="text-danger">outstanding reviewer</strong>), 2021</li>
+                                    <li>CVPR 2020 (<strong class="text-danger">outstanding reviewer</strong>), 2021 (<strong class="text-danger">outstanding reviewer</strong>)</li>
                                     <li>ICCV 2021</li>
                                     <li>WACV 2021</li>
                                     <li>ACCV 2020</li>
@@ -384,6 +376,7 @@
                     <h5 class="card-header">Awards</h5>
                     <div class="card-body">
                         <ul class="pl15 mb-0">
+                            <li>Outstanding reviewer award, CVPR 2021</li>
                             <li>Outstanding reviewer award, CVPR 2020</li>
                             <li>Best paper runner-up award, AI for Content Creation Workshop at CVPR 2020</li>
                         </ul>
@@ -612,8 +605,8 @@
             });
 
             var n_arxiv = $(".li-arxiv").length + 1;
-            var n_conf = $(".li-conference").length + 1;
-            var n_ws = $(".li-workshop").length + 1;
+            var n_conf = $(".li-conference").length + $(".li-conference-workshop").length + 1;
+            var n_ws = $(".li-workshop").length + $(".li-conference-workshop").length + 1;
             $("head").append("<style>body {counter-reset: arxivcounter " + n_arxiv + " confcounter " + n_conf + " wscounter " + n_ws + "; padding-left: 0;}</style>")
         </script>
     </body>
