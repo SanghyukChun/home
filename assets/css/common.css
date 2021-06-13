@@ -1,3 +1,12 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #707070;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6, strong, b {
+    color: #303030;
+}
+
 @media (max-width: 576px) {
     div.card-mobile-hide {
         border: 0px;
@@ -12,6 +21,9 @@ div.container-wrapper {
     margin:0 auto;
 }
 
+div.profile_header {
+}
+
 div.p2rem {
     padding: 2rem 2rem;
 }
@@ -24,27 +36,32 @@ ul.pl15 {
     counter-increment: arxivcounter -1;
     content: '[A' counter(arxivcounter) "] ";
     font-weight: bold;
+    color: #303030;
 }
 
 .li-conference:before {
     counter-increment: confcounter -1;
     content: '[C' counter(confcounter) "] ";
     font-weight: bold;
+    color: #303030;
 }
 
 .li-workshop:before {
     counter-increment: wscounter -1;
     content: '[W' counter(wscounter) "] ";
     font-weight: bold;
+    color: #303030;
 }
 
 .li-conference-workshop:before {
     counter-increment: confcounter -1 wscounter -1;
     content: '[C' counter(confcounter) '/W' counter(wscounter) "] ";
     font-weight: bold;
+    color: #303030;
 }
 
 .li-others:before {
     content: '[O]';
     font-weight: bold;
+    color: #303030;
 }
