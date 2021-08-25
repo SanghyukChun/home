@@ -1,0 +1,6 @@
+@article{chun2021styleaugment,
+    title={StyleAugment: Learning Texture De-biased Representations by Style Augmentation without Pre-defined Textures},
+    author={Chun, Sanghyuk and Park, Song},
+    year={2021},
+    journal={arXiv preprint arXiv:2108.10549},
+}
