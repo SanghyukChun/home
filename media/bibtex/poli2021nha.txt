@@ -1,6 +1,6 @@
-@article{poli2021nha,
+@inproceedings{poli2021nha,
   title={Neural Hybrid Automata: Learning Dynamics with Multiple Modes and Stochastic Transitions},
   author={Poli, Michael and Massaroli, Stefano and Scimeca, Luca and Oh, Seong Joon and Chun, Sanghyuk and Yamashita, Atsushi and Asama, Hajime and Park, Jinkyoo and Garg, Animesh},
-  journal={arXiv preprint arXiv:2106.04165},
+  booktitle={Neural Information Processing Systems (NeurIPS)},
   year={2021}
 }
