@@ -1,0 +1,6 @@
+@article{song2021vidt,
+    title={ViDT: An Efficient and Effective Fully Transformer-based Object Detector}, 
+    author={Hwanjun Song and Deqing Sun and Sanghyuk Chun and Varun Jampani and Dongyoon Han and Byeongho Heo and Wonjae Kim and Ming-Hsuan Yang},
+    year={2021},
+    journal={arXiv preprint arXiv:2110.03921},
+}
