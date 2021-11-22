@@ -60,6 +60,13 @@ ul.pl15 {
     color: #303030;
 }
 
+.li-journal:before {
+    counter-increment: journalcounter -1;
+    content: '[J' counter(journalcounter) "] ";
+    font-weight: bold;
+    color: #303030;
+}
+
 .li-others:before {
     content: '[O]';
     font-weight: bold;
