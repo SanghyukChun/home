@@ -1,6 +1,6 @@
 @article{choe2020wsoleval_extension,
     title={Evaluation for Weakly Supervised Object Localization: Protocol, Metrics, and Datasets},
-    author={Choe, Junsuk and Oh, Seong Joon and Chun, Sanghyuk and Akata, Zeynep and Shim, Hyunjung},
+    author={Choe, Junsuk and Oh, Seong Joon and Chun, Sanghyuk and Lee, Seungho and Akata, Zeynep and Shim, Hyunjung},
     year={2020},
     journal={arXiv preprint arXiv:2007.04178},
 }
