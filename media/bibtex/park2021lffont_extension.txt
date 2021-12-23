@@ -1,0 +1,6 @@
+@article{park2021lffont_extension,
+    title={Few-shot Font Generation with Weakly Supervised Localized Representations},
+    author={Park, Song and Chun, Sanghyuk and Cha, Junbum and Lee, Bado and Shim, Hyunjung},
+    year={2021},
+    journal={arXiv preprint arXiv:2112.11895},
+}
