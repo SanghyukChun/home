@@ -61,6 +61,7 @@
                 <h3 id="news">News</h3>
                 <div class="mb-5">
                     <ul class="pl15 mb-0">
+                        <li>12/2021 : Co-hosting NeurIPS'21 workshop on <a href="#neurips-2021-workshop-on-imagenet-past-present-and-future">ImageNet: Past, Present, and Future</a> with 400+ attendees!</li>
                         <li>12/2021 : Giving a talk at University of Seoul (topic: "Realistic challenges and limitations of AI") <a href="https://docs.google.com/presentation/d/1FOIMm4bYWN6b80_H0El1N4PzGu-2gfNqfR6bgjU8-58/edit?usp=sharing">[slide]</a></li>
                         <li>11/2021 : Giving a talk at NAVER and NAVER Labs Europe (topic: Mitigating dataset biases in Real-world ML applications) <a href="https://docs.google.com/presentation/d/1jyrfZfSEwbgzSuVKUURfmIEo3baksOL2GxSrBSzR4qo/edit">[slide]</a></li>
                         <li>11/2021 : Giving a talk at UNIST (topic: Limits and Challenges in Deep Learning Optimizers) <a href="https://docs.google.com/presentation/d/1NNftqS6BcCPd52tv8gWEjB34retYhP0FToOFBd9ewkQ/edit">[slide]</a></li>
@@ -476,16 +477,17 @@
                             </li>
                         </ul>
                         <ul class="list-unstyled mb-0">
-                            <li><strong>Workshop organizer:</strong>
-                                <ul>
-                                    <li><strong>[WO1]</strong> NeurIPS 2021 Workshop on <a href="https://sites.google.com/view/imagenet-workshop/home">ImageNet: Past, Present, and Future</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                        <ul class="list-unstyled mb-0">
                             <li><strong>Other services:</strong>
                                 <ul>
                                     <li><a href="https://iclr.cc/Conferences/2021/Schedule?showEvent=4408">ICLR 2021 Social: ML in Korea</a>, technical chair and session chair</li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul class="list-group list-group-flush mt-2">
+                            <li class="list-group-item li-workshop-orig">
+                                <strong class="anchor-strong">NeurIPS 2021 Workshop on <a href="https://sites.google.com/view/imagenet-workshop/home">ImageNet: Past, Present, and Future</a></strong>
+                                <ul>
+                                    <li>Co-organized by Zeynep Akata, Lucas Beyer, <strong>Sanghyuk Chun</strong>, Almut Sophia Koepke, Diane Larlus, Seong Joon Oh, Rafael Sampaio de Rezende, Sangdoo Yun, Xiaohua Zhai</li>
                                 </ul>
                             </li>
                         </ul>
@@ -775,7 +777,8 @@
             var n_conf = $(".li-conference").length + $(".li-conference-workshop").length + 1;
             var n_ws = $(".li-workshop").length + $(".li-conference-workshop").length + 1;
             var n_journal = $(".li-journal").length + 1;
-            $("head").append("<style>body {counter-reset: arxivcounter " + n_arxiv + " confcounter " + n_conf + " wscounter " + n_ws + " journalcounter " + n_journal + "; padding-left: 0;}</style>")
+            var n_wsorig = $(".li-workshop-orig").length + 1;
+            $("head").append("<style>body {counter-reset: arxivcounter " + n_arxiv + " confcounter " + n_conf + " wscounter " + n_ws + " journalcounter " + n_journal + " wsocounter " + n_wsorig + "; padding-left: 0;}</style>")
         </script>
     </body>
 </html>

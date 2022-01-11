@@ -72,3 +72,10 @@ ul.pl15 {
     font-weight: bold;
     color: #303030;
 }
+
+.li-workshop-orig:before {
+    counter-increment: wsocounter -1;
+    content: '[WO' counter(wsocounter) "] ";
+    font-weight: bold;
+    color: #303030;
+}
