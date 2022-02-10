@@ -1,0 +1,6 @@
+@article{lee2022dcc,
+    title={Dataset Condensation with Contrastive Signals}, 
+    author={Saehyung Lee and Sanghyuk Chun and Sangwon Jung and Sangdoo Yun and Sungroh Yoon}
+    year={2022},
+    journal={arXiv preprint arXiv:2202.02916},
+}
