@@ -1,6 +1,6 @@
-@article{jung2021cgl,
+@inproceedings{jung2021cgl,
     title={Learning Fair Classifiers with Partially Annotated Group Labels}, 
     author={Sangwon Jung and Sanghyuk Chun and Taesup Moon},
-    year={2021},
-    journal={arXiv preprint arXiv:2111.14581},
+    year={2022},
+    booktitle={Conference on Computer Vision and Pattern Recognition (CVPR)},
 }
