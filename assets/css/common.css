@@ -79,3 +79,10 @@ ul.pl15 {
     font-weight: bold;
     color: #303030;
 }
+
+.li-tutorial:before {
+    counter-increment: ttcounter -1;
+    content: '[T' counter(ttcounter) "] ";
+    font-weight: bold;
+    color: #303030;
+}
