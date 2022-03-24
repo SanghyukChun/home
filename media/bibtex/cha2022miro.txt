@@ -1,0 +1,6 @@
+@article{cha2022miro,
+    title={Domain Generalization by Mutual-Information Regularization with Pre-trained Models}, 
+    author={Junbum Cha and Kyungjae Lee and Sungrae Park and Sanghyuk Chun},
+    year={2022},
+    journal={arXiv preprint arXiv:2203.10789},
+}
