@@ -21,15 +21,16 @@
         <link rel="icon" type="image/png" href="favicon.png">
 
         <!-- Roboto -->
-        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-
 
         <title>Sanghyuk Chun - NAVER AI Lab</title>
     </head>
     <body>
         <div class="container-wrapper">
-            <div class="container text-justify">
+            <!--<div class="container text-justify">-->
+            <div class="container">
                 <div class="mt-5 mb-3">
                     <div class="row profile_header">
                         <div class="col-md-2 d-none d-lg-block d-xl-block">
@@ -48,19 +49,24 @@
                 </div>
 
                 <hr>
-                <div class="mb-4">
-                    <p>I'm a lead research scientist at <a href="https://naver-career.gitbook.io/en/teams/clova-cic">NAVER AI Lab</a>, working on machine learning and its applications. In particular, my research interests focus on bridging the gap between two gigantic topics: reliable machine learning tasks (<em>e.g.</em>, robustness <sup>[C3, C9, C10, W1, W3, A4, T1]</sup>, de-biasing or domain generalization <sup>[C6, C15, A4, C16, A6]</sup>, algorithmic fairness <sup>[C18]</sup>, uncertainty estimation <sup>[C11, A3]</sup>, explainability <sup>[C5, C11, A2, A4, W2]</sup>, and fair evaluation <sup>[C5, C11]</sup>) and learning with large-scale extra data but limited annotations (<em>e.g.</em>, multi-modal learning <sup>[C11]</sup>, weakly-supervised learning <sup>[C2, C3, C4, C5, C7, C8, C12, W2, W4, W5, W6, A2, A4]</sup>, and self-supervised learning). I have contributed large-scale machine learning algorithms <sup>[C3, C9, C10, C13, WO1, C17]</sup> in NAVER AI Lab as well. Prior to working at NAVER, I worked as a research engineer at the advanced recommendation team in <a href="https://www.kakaocorp.com/">Kakao</a> from 2016 to 2018.</p>
-                    <p class="mb-0">I received a master's degree in Electrical Engineering from Korea Advanced Institute of Science and Technology (KAIST) in 2016. During the master's degree, I researched on <a href="http://library.kaist.ac.kr/thesis02/2016/2016M020143583_S1.pdf">a scalable algorithm for robust subspace clustering</a> (the algorithm is based on robust PCA and k-means clustering). Before my master's study, I worked at <a href="http://i-um.com/">IUM-SOCIUS</a> in 2012 as a software engineering internship. I also did a research internship at <a href="http://www.ndsl.kaist.edu/">Networked and Distributed Computing System Lab</a> in KAIST and <a href="https://www.naverlabs.com/">NAVER Labs</a> during summer 2013 and fall 2015, respectively.</p>
+                <div class="mb-4 text-justify">
+                    <p>I'm a lead research scientist at <a href="https://naver-career.gitbook.io/en/teams/clova-cic">NAVER AI Lab</a>, working on machine learning and its applications. My research aims to <span class="text-success">expand machine knowledge</span> <span class="text-danger">with insufficient human supervision</span>.</p>
+                    <p><span class="text-success">Machine knowledge:</span> Existing machine learning models cannot understand the problem itself <sup><a href="#facct-2022-translation-dialogue-tutorial-shortcut-learning-in-ma">[Shortcut learning tutorial]</a></sup>. This causes many realistic problems, such as discrimination by machines, poor generalizability to unseen (or minor) corruptions / environments / groups. Current state-of-the-art machines only do "predict", rather than "logical thinking based on logical reasoning". As models prefer to learn by shortcuts <sup><a href="#which-shortcut-cues-will-dnns-choose-a-study-from-the-parameter">[WCST-ML]</a></sup>, just training models as usual will lead to biased models. If it is difficult to make machines understand the problem itself, what can we do?</p>
+                    <p><span class="text-success">Expanding machine knowledge:</span> Thus, we need to make a machine with a causal understanding of the problem. Our model should not learn undesirable shortcut features <sup><a href="#learning-de-biased-representations-with-biased-representations">[ReBias]</a> <a href="#styleaugment-learning-texture-de-biased-representations-by-style">[StyleAugment]</a></sup>, or should be robust to unseen corruptions <sup><a href="#cutmix-regularization-strategy-to-train-strong-classifiers-with">[CutMix]</a> <a href="#an-empirical-evaluation-on-robustness-and-uncertainty-of-regular">[RegEval]</a> <a href="#re-labeling-imagenet-from-single-to-multi-labels-from-global-to">[ReLabel]</a> <a href="#rethinking-spatial-dimensions-of-vision-transformers">[PiT]</a></sup> or significant distribution shifts <sup><a href="#swad-domain-generalization-by-seeking-flat-minima">[SWAD]</a></sup> <sup><a href="#domain-generalization-by-mutual-information-regularization-with">[MIRO]</a></sup>. Also we need to make a machine not discriminative to certain demographic groups <sup><a href="#learning-fair-classifiers-with-partially-annotated-group-labels">[CGL]</a></sup>. We expect a model says "I don't know" when they get unexpected inputs <sup><a href="#probabilistic-embeddings-for-cross-modal-retrieval">[PCME]</a></sup>. At least, we expect a model can explain why it makes a such decision <sup><a href="#toward-interpretable-music-tagging-with-self-attention">[MTSA]</a> <a href="#visualizing-and-understanding-self-attention-based-music-tagging">[MTSA WS]</a> <a href="#evaluating-weakly-supervised-object-localization-methods-right">[WSOL eval]</a> <a href="#evaluation-for-weakly-supervised-object-localization-protocol-me">[WSOL Eval journal]</a></sup>, and how it can be fixed (e.g., More data collection? More annotations? Filtering?). My research focuses on expanding machine knowledge from "just prediction" to "logical reasoning". Unfortunately, in many cases, the existing evaluation protocol or metrics are not reliable to measure how machines learn proper knowledge. I also have worked with fair evaluation benchmarks and metrics to mitigate this issue <sup><a href="#eccv-caption-correcting-false-negatives-by-collecting-machine-an">[ECCV Caption]</a> <a href="#probabilistic-embeddings-for-cross-modal-retrieval">[PCME]</a> <a href="#evaluating-weakly-supervised-object-localization-methods-right">[WSOL eval]</a> <a href="#evaluation-for-weakly-supervised-object-localization-protocol-me">[WSOL Eval journal]</a> <a href="#an-empirical-evaluation-on-robustness-and-uncertainty-of-regular">[RegEval]</a></sup>.</p>
+                    <p><span class="text-danger">Why "insufficient human supervision"?</span> Maybe we can make such models with large-scale datasets if we have explicit human annotations for every possible (and even impossible!) situation. Furthermore, data collection itself is even non-trivial in many scenarios. As I have witnessed the power of large-scale data points and models in NAVER <sup><a href="#cutmix-regularization-strategy-to-train-strong-classifiers-with">[CutMix]</a> <a href="#adamp-slowing-down-the-slowdown-for-momentum-optimizers-on-scale">[AdamP]</a> <a href="#re-labeling-imagenet-from-single-to-multi-labels-from-global-to">[ReLabel]</a> <a href="#rethinking-spatial-dimensions-of-vision-transformers">[PiT]</a> <a href="#neurips-2021-workshop-on-imagenet-past-present-and-future">[ImageNet PPF WS]</a> <a href="#vidt-an-efficient-and-effective-fully-transformer-based-object-d">[ViDT]</a></sup>, my assumption is that learning with tremendously many data points (crawled from web) would mimic many possible situations. However, human annotations are too expensive and infeasible in many practical scenarios. We need other approaches rather than the fully supervised approach. My recent research aims to build reliable machine learning models with limited number of additional information (e.g., bias labels) but more data <sup><a href="#re-labeling-imagenet-from-single-to-multi-labels-from-global-to">[ReLabel]</a> <a href="#learning-fair-classifiers-with-partially-annotated-group-labels">[CGL]</a></sup>. In particular, I have focused on learning with vision-language datasets <sup><a href="#probabilistic-embeddings-for-cross-modal-retrieval">[PCME]</a> <a href="#eccv-caption-correcting-false-negatives-by-collecting-machine-an">[ECCV Caption]</a></sup>.</p>
+                    <!--<p>I'm a lead research scientist at <a href="https://naver-career.gitbook.io/en/teams/clova-cic">NAVER AI Lab</a>, working on machine learning and its applications. In particular, my research interests focus on bridging the gap between two gigantic topics: reliable machine learning tasks (<em>e.g.</em>, robustness <sup>[C3, C9, C10, W1, W3, A4, T1]</sup>, de-biasing or domain generalization <sup>[C6, C15, A4, C16, A6]</sup>, algorithmic fairness <sup>[C18]</sup>, uncertainty estimation <sup>[C11, A3]</sup>, explainability <sup>[C5, C11, A2, A4, W2]</sup>, and fair evaluation <sup>[C5, C11]</sup>) and learning with large-scale extra data but limited annotations (<em>e.g.</em>, multi-modal learning <sup>[C11]</sup>, weakly-supervised learning <sup>[C2, C3, C4, C5, C7, C8, C12, W2, W4, W5, W6, A2, A4]</sup>, and self-supervised learning). I have contributed large-scale machine learning algorithms <sup>[C3, C9, C10, C13, WO1, C17]</sup> in NAVER AI Lab as well. Prior to working at NAVER, I worked as a research engineer at the advanced recommendation team in <a href="https://www.kakaocorp.com/">Kakao</a> from 2016 to 2018.</p>-->
+                    <!--<p class="mb-0">I received a master's degree in Electrical Engineering from Korea Advanced Institute of Science and Technology (KAIST) in 2016. During the master's degree, I researched on <a href="http://library.kaist.ac.kr/thesis02/2016/2016M020143583_S1.pdf">a scalable algorithm for robust subspace clustering</a> (the algorithm is based on robust PCA and k-means clustering). Before my master's study, I worked at <a href="http://i-um.com/">IUM-SOCIUS</a> in 2012 as a software engineering internship. I also did a research internship at <a href="http://www.ndsl.kaist.edu/">Networked and Distributed Computing System Lab</a> in KAIST and <a href="https://www.naverlabs.com/">NAVER Labs</a> during summer 2013 and fall 2015, respectively.</p>-->
                 </div>
                 <hr>
-                <div class="mb-4">
+                <div class="mb-4 text-justify">
                     <p class="font-weight-bold font-italic">NAVER AI Lab is looking for motivated research internship students / regular research scientists (topic: not limited! Before you apply to NAVER AI Lab, please read carefully <a href="https://naver-career.gitbook.io/en/positions/ai-ml">our job decription</a> first. If you are interested in collaborating with me, my focused research topics are: real-world biases, uncertainty estimation, robustness, causality, explainability, algorithmic fairness, multi-modal learning, vision-and-language, ...). Our mission is to perform impactful long-term AI research to make AI more beneficial and contribute to the AI community. We, therefore, expect very strong publication records (e.g., 2+ top-tier conference papers to regular research scientists, 1+ research papers to interns) for the applicants. If you are interested in joining our group, please send an email to me (or <tt>naverai at navercorp.com</tt>) with your academic CV and desired topics.</p>
-                    <p class="mb-0 font-weight-bold font-italic">If you are interested in the internship position, you have to aware that we expect 6-month internship, and no extension is available due to legal regulations. Therefore, we expect internship students to finish their research project during 6-months (i.e., submitting a full paper to top-tier conferences, releasing their code officially, ...). It is really tough to us as well, so we'd like to keep the number of interns as small as possible (in my case, no more than three). Therefore, as of now, we are not hiring undergraduate students (or students who don't have enough publication records), and we wouldn't hire internship students because we already have our full hands. Officially, all of us work remotely untill March 2022 (no detailed plan after March as of now, but our office is located at Seoul, Korea <a href="https://goo.gl/maps/NNn59S8KZsxgcoLC6">[Google map]</a>). Lastly, our hiring process is notoriously slow (sorry, but this is out of my hands), usually taking more than 2 months. So, please do not contact to us imminently.</p>
+                    <p class="mb-0 font-weight-bold font-italic">If you are interested in the internship position, you have to aware that we expect 6-month internship, and no extension is available due to legal regulations. Therefore, we expect internship students to finish their research project during 6-months (i.e., submitting a full paper to top-tier conferences, releasing their code officially, ...). It is really tough to us as well, so we'd like to keep the number of interns as small as possible (in my case, no more than three). Therefore, as of now, we are not hiring undergraduate students (or students who don't have enough publication records), and we wouldn't hire internship students because we already have our full hands. Officially, all of us work remotely untill June 2022 (no detailed plan after June as of now, but our office is located at Seoul, Korea <a href="https://goo.gl/maps/NNn59S8KZsxgcoLC6">[Google map]</a>). Lastly, our hiring process is notoriously slow (sorry, but this is out of my hands), usually taking more than 2 months. So, please do not contact to us imminently.</p>
                 </div>
                 <hr>
                 <h3 id="news">News</h3>
                 <div class="mb-5">
                     <ul class="pl15 mb-0">
+                        <li>_4/2022 : Organizing ICLR 2022 ML in Korea Social</li>
                         <li>_3/2022 : Giving guest lectures at KAIST and SNU (topic: "Towards Reliable Machine Learning") <a href="https://docs.google.com/presentation/d/1Z1XNVl6LfslCyTsERQQRzTb6qMpuyc-8wkMIYuu7IAY/edit?usp=sharing">[slide]</a></li>
                         <li>_3/2022 : Co-organizing FAccT 2022 Translation/Dialogue Tutorial: "Shortcut learning in Machine Learning: Challenges, Analysis, Solutions" (slides, videos and web pages will be released soon)</li>
                         <li>_3/2022 : 1 paper <sup><a href="#learning-fair-classifiers-with-partially-annotated-group-labels">[CGL]</a></sup> is accepted at CVPR 2022.</li>
@@ -68,8 +74,8 @@
                         <li>_1/2022 : 2 papers <sup><a href="#vidt-an-efficient-and-effective-fully-transformer-based-object-d">[ViDT]</a></sup> <sup><a href="#which-shortcut-cues-will-dnns-choose-a-study-from-the-parameter">[WCST-ML]</a></sup> are accepted at ICLR 2022.</li>
                     </ul>
                     <details>
-                    <summary>See older news</summary>
-                    <ul class="pl15 mb-0"></ul>
+                    <summary><strong>See older news</strong></summary>
+                    <ul class="pl15 mb-0">
                         <li>12/2021 : Co-hosting NeurIPS'21 workshop on <a href="#neurips-2021-workshop-on-imagenet-past-present-and-future">ImageNet: Past, Present, and Future</a> with 400+ attendees!</li>
                         <li>12/2021 : Giving a talk at University of Seoul (topic: "Realistic challenges and limitations of AI") <a href="https://docs.google.com/presentation/d/1FOIMm4bYWN6b80_H0El1N4PzGu-2gfNqfR6bgjU8-58/edit?usp=sharing">[slide]</a></li>
                         <li>11/2021 : Giving a talk at NAVER and NAVER Labs Europe (topic: Mitigating dataset biases in Real-world ML applications) <a href="https://docs.google.com/presentation/d/1jyrfZfSEwbgzSuVKUURfmIEo3baksOL2GxSrBSzR4qo/edit">[slide]</a></li>
@@ -101,6 +107,7 @@
                         <li>_5/2019 : 2 papers <sup><a href="#visualizing-and-understanding-self-attention-based-music-tagging">[MTSA]</a> <a href="#an-empirical-evaluation-on-robustness-and-uncertainty-of-regular">[RegEval]</a></sup> are accepted at ICML 2019 workshops (1 oral presentation).</li>
                         <li>_5/2019 : Giving a talk at ICLR 2019 Expo talk.</li>
                         <li>_3/2019 : 1 paper <sup><a href="#where-to-be-adversarial-perturbations-added-investigating-and-ma">[PRM]</a></sup> is accepted at ICLR 2019 workshop.</li>
+                    </ul>
                     </details>
                 </div>
                 <hr>
@@ -129,7 +136,7 @@
                             <strong>ECCV Caption: Correcting False Negatives by Collecting Machine-and-Human-verified Image-Caption Associations for MS-COCO.</strong>
                             <ul>
                                 <li><strong>Sanghyuk Chun</strong>, Wonjae Kim, Song Park, Minsuk Chang, Seong Joon Oh</li>
-                                <li><strong><em>preprint.</em></strong> <a href="media/papers/chun2022eccv_caption.pdf">paper</a> | <a href="https://github.com/naver-ai/eccv-caption">code</a> | <a href="media/bibtex/chun2022eccv_caption.txt">bibtex</a></li>
+                                <li><strong><em>preprint.</em></strong> <a href="media/papers/chun2022eccv_caption.pdf">paper</a> | <a href="https://github.com/naver-ai/eccv-caption">code</a> | <a href="https://pypi.org/project/eccv-caption/">pypi</a> | <a href="media/bibtex/chun2022eccv_caption.txt">bibtex</a></li>
                             </ul>
                         </li>
 
@@ -205,21 +212,21 @@
                             </ul>
                         </li>
 
-                        <li class="list-group-item">
-                            <strong>Multiple Heads are Better than One: Few-shot Font Generation with Multiple Localized Experts.</strong>
-                            <ul>
-                                <li>Song Park, <strong>Sanghyuk Chun</strong>, Junbum Cha, Bado Lee, Hyunjung Shim</li>
-                                <li><strong><em>ICCV 2021.</em></strong> <a href="media/papers/park2021iccv_mxfont.pdf">paper</a> | <a href="https://github.com/clovaai/mxfont">code</a> | <a href="media/bibtex/park2021mxfont.txt">bibtex</a></li>
-                            </ul>
-                        </li>
+                        <!--<li class="list-group-item">-->
+                            <!--<strong>Multiple Heads are Better than One: Few-shot Font Generation with Multiple Localized Experts.</strong>-->
+                            <!--<ul>-->
+                                <!--<li>Song Park, <strong>Sanghyuk Chun</strong>, Junbum Cha, Bado Lee, Hyunjung Shim</li>-->
+                                <!--<li><strong><em>ICCV 2021.</em></strong> <a href="media/papers/park2021iccv_mxfont.pdf">paper</a> | <a href="https://github.com/clovaai/mxfont">code</a> | <a href="media/bibtex/park2021mxfont.txt">bibtex</a></li>-->
+                            <!--</ul>-->
+                        <!--</li>-->
 
-                        <li class="list-group-item">
-                            <strong>Few-shot Font Generation with Localized Style Representations and Factorization.</strong>
-                            <ul>
-                                <li>Song Park<sup>&#10059;</sup>, <strong>Sanghyuk Chun</strong><sup>&#10059;</sup>, Junbum Cha, Bado Lee, Hyunjung Shim</li>
-                                <li><strong><em>AAAI 2021.</em></strong> <strong><em>CVPR Workshop 2021.</em></strong> <a href="media/papers/park2021aaai_lffont.pdf">paper</a> | <a href="https://github.com/clovaai/lffont">code</a> | <a href="https://cvml.yonsei.ac.kr/projects/few-shot-font-generation">project page</a> | <a href="media/bibtex/park2021lffont.txt">bibtex</a></li>
-                            </ul>
-                        </li>
+                        <!--<li class="list-group-item">-->
+                            <!--<strong>Few-shot Font Generation with Localized Style Representations and Factorization.</strong>-->
+                            <!--<ul>-->
+                                <!--<li>Song Park<sup>&#10059;</sup>, <strong>Sanghyuk Chun</strong><sup>&#10059;</sup>, Junbum Cha, Bado Lee, Hyunjung Shim</li>-->
+                                <!--<li><strong><em>AAAI 2021.</em></strong> <strong><em>CVPR Workshop 2021.</em></strong> <a href="media/papers/park2021aaai_lffont.pdf">paper</a> | <a href="https://github.com/clovaai/lffont">code</a> | <a href="https://cvml.yonsei.ac.kr/projects/few-shot-font-generation">project page</a> | <a href="media/bibtex/park2021lffont.txt">bibtex</a></li>-->
+                            <!--</ul>-->
+                        <!--</li>-->
                     </ul>
                 </div>
 
@@ -260,7 +267,7 @@
                             <strong class="anchor-strong">ECCV Caption: Correcting False Negatives by Collecting Machine-and-Human-verified Image-Caption Associations for MS-COCO.</strong>
                             <ul>
                                 <li><strong>Sanghyuk Chun</strong>, Wonjae Kim, Song Park, Minsuk Chang, Seong Joon Oh</li>
-                                <li><strong><em>preprint.</em></strong> <a href="media/papers/chun2022eccv_caption.pdf">paper</a> | <a href="https://github.com/naver-ai/eccv-caption">code</a> | <a href="media/bibtex/chun2022eccv_caption.txt">bibtex</a></li>
+                                <li><strong><em>preprint.</em></strong> <a href="media/papers/chun2022eccv_caption.pdf">paper</a> | <a href="https://github.com/naver-ai/eccv-caption">code</a> | <a href="https://pypi.org/project/eccv-caption/">pypi</a> | <a href="media/bibtex/chun2022eccv_caption.txt">bibtex</a></li>
                             </ul>
                         </li>
 
@@ -306,6 +313,9 @@
                     </ul>
                 </div>
 
+
+                <details class="mb-5">
+                    <summary class="mb-3"><strong style="font-size: 1.5rem; font-weight: 500; line-height: 1.2;">Older publications (~ 2021)</strong></summary>
 
                 <div class="card mb-4">
                     <div class="card-header">
@@ -535,6 +545,8 @@
                         </li>
                     </ul>
                 </div>
+                </details>
+
 
                 <h3 id="activities">Academic Activities</h3>
                 <div class="card mb-4">
@@ -650,16 +662,18 @@
                     <h5 id="teaching" class="card-header">Guest lectures</h5>
                     <div class="card-body">
                         <ul class="list-unstyled mb-0">
-                            <li>"Towards Reliable Machine Learning", KAIST and SNU (2022). <a href="https://docs.google.com/presentation/d/1Z1XNVl6LfslCyTsERQQRzTb6qMpuyc-8wkMIYuu7IAY/edit?usp=sharing">[slide]</a></li>
+                            <li>"Towards Reliable Machine Learning", SNU (2022). <a href="https://docs.google.com/presentation/d/1Z1XNVl6LfslCyTsERQQRzTb6qMpuyc-8wkMIYuu7IAY/edit?usp=sharing">[slide]</a></li>
+                            <li>"Towards Reliable Machine Learning", KAIST (2022). <a href="https://docs.google.com/presentation/d/1Z1XNVl6LfslCyTsERQQRzTb6qMpuyc-8wkMIYuu7IAY/edit?usp=sharing">[slide]</a></li>
                             <li>"Limits and Challenges in Deep Learning Optimizers", UNIST (2021). <a href="https://docs.google.com/presentation/d/1NNftqS6BcCPd52tv8gWEjB34retYhP0FToOFBd9ewkQ/edit">[slide]</a></li>
-                            <li>"Towards Few-shot Font Generation", Seoul University and NAVER (2021). <a href="https://docs.google.com/presentation/d/13WoYS9r9C751s3nZ2yF5WdestRXh3V7LFQDOJyCrt9s/edit?usp=sharing">[slide]</a></li>
+                            <li>"Towards Few-shot Font Generation", Seoul University (2021). <a href="https://docs.google.com/presentation/d/13WoYS9r9C751s3nZ2yF5WdestRXh3V7LFQDOJyCrt9s/edit?usp=sharing">[slide]</a></li>
                             <li>"Reliable Machine Learning in NAVER AI", Yonsei University (2020). <a href="https://docs.google.com/presentation/d/1CMeF-AbbKBX-NzzcnEe6YiZjWMdzp3ZknPnD2B9mSoE/edit?usp=sharing">[slide]</a></li>
                             <li>"Recommendation system in the real world", <a href="https://deepest.ai/">Deepest</a> Summer School 2018. <a href="media/slides/180825_recsys_summer_school.pdf">[slide]</a></li>
                         </ul>
                     </div>
                 </div>
 
-                <h3 id="projects">Industry Experience</h3>
+                <details class="mb-5">
+                    <summary class="mb-3"><strong style="font-size: 1.75rem; font-weight: 500; line-height: 1.2;">Industry Experience</strong></summary>
 
                 <div class="card mb-4">
                     <h5 class="card-header" id="experience-in-naver">NAVER AI Research (2018 ~ Now)</h5>
@@ -683,7 +697,7 @@
                                     <ul class="list-unstyled">
                                         <li>Hangul (Korean alphabet, 한글) originally consists of only 24 sub-letters (ㄱ, ㅋ, ㄴ, ㄷ, ㅌ, ㅁ, ㅂ, ㅍ, ㄹ, ㅅ, ㅈ, ㅊ, ㅇ, ㅎ, ㅡ, ㅣ, ㅗ, ㅏ, ㅜ, ㅓ, ㅛ, ㅑ, ㅠ, ㅕ), but by combining them, there exist 11,172 valid characters in Hangul. For example, "한" is a combination of ㅎ, ㅏ, and ㄴ, and "쐰" is a combination of ㅅ, ㅅ, ㅗ, ㅣ, and ㄴ. It makes generating a new Hangul font be very expensive and time-consuming. Meanwhile, <a href="https://hangeul.naver.com/2014/history">since 2008</a>, Naver has distributed Korean fonts for free (named <a href="https://hangeul.naver.com/2017/nanum">Nanum fonts, 나눔 글꼴</a>).</li>
                                         <li>In 2019, we developed a technology for fully-personalized Hangul generation only with 152 characters. We opened <a href="https://clova.ai/handwriting">an event page</a> where users can submit their own handwriting. The full generated font list can be found in <a href="https://clova.ai/handwriting/list.html">[this link]</a>. Details for the generation technique used for the service was presented in Deview 2019 <a href="https://deview.kr/2019/schedule/294">[Link]</a>.</li>
-                                        <li>This work was also extended to the few-shot generation based on the compositionality. See the papers in AI for Content Creation Workshop (AICCW) at CVPR 2020 (short paper) <a href="media/papers/cha2020cvprws.pdf">[Link]</a>, ECCV 2020 (full paper) <a href="media/papers/cha2020eccv_dmfont.pdf">[Link]</a>, AAAI 2021 <a href="media/papers/park2021aaai_lffont.pdf">[Link]</a>, and ArXiv preprint <a href="media/papers/park2021mxfont.pdf">[Link]</a>.</li>
+                                        <li>This work was also extended to the few-shot generation based on the compositionality. See the papers in AI for Content Creation Workshop (AICCW) at CVPR 2020 (short paper) <a href="media/papers/cha2020cvprws.pdf">[Link]</a>, ECCV 2020 (full paper) <a href="media/papers/cha2020eccv_dmfont.pdf">[Link]</a>, AAAI 2021 <a href="media/papers/park2021aaai_lffont.pdf">[Link]</a>, ICCV 2021 <a href="media/papers/park2021iccv_mxfont.pdf">[Link]</a>, and journal extension <a href="media/papers/park2021lffont_extension.pdf">[Link]</a>.</li>
                                         <li class="text-danger"><strong>[BONUS] You can play with my handwriting <a href="handwriting.html">here</a></strong></li>
                                     </ul>
                                 </div>
@@ -811,8 +825,10 @@
                         </li>
                     </ul>
                 </div>
+                </details>
 
-                <h3 id="edu">Education and Career</h3>
+                <details class="mb-5">
+                    <summary class="mb-3"><strong style="font-size: 1.75rem; font-weight: 500; line-height: 1.2;">Education and Career</strong></summary>
                 <div class="card mb-4">
                     <div class="card-body">
                         <ul class="list-unstyled mb-0">
@@ -821,9 +837,12 @@
                         </ul>
                         <hr>
                         <ul class="pl15">
-                            <li>Tech leader / research scientist at NAVER AI Lab (Feb. 2018 - Now)</li>
+                            <li>Lead research scientist at NAVER AI Lab (Feb. 2018 - Now)</li>
                             <ul class="pl15">
+                            <li>Leader of ML Research @NAVER AI Lab (Feb. 2022 - Now)</li>
+                            <li>Tech leader at NAVER AI Lab (Oct. 2020 - Jan. 2022)</li>
                             <li>Visiting researcher at <a href="https://europe.naverlabs.com/">Naver Labs Europe</a> (Oct. 2019 - Dec. 2019)</li>
+                            <li>Research scientist at NAVER CLOVA (Feb. 2018 - Sep. 2020)</li>
                             </ul>
                             <li>Research engineer at advanced recommendation team (ART) in <a href="https://www.kakaocorp.com/">Kakao</a> (Feb. 2016 - Feb. 2018)</li>
                             <li>Research internship at <a href="https://www.naverlabs.com/">Naver Labs</a> (Aug. 2015 - Dec. 2015)</li>
@@ -837,6 +856,9 @@
                         </ul>
                     </div>
                 </div>
+                </details>
+
+
             </div>
         </div>
 
