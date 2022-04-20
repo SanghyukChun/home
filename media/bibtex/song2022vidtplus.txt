@@ -1,0 +1,6 @@
+@article{song2022vidtplus,
+    title={An Extendable, Efficient and Effective Transformer-based Object Detector},
+    author={Hwanjun Song and Deqing Sun and Sanghyuk Chun and Varun Jampani and Dongyoon Han and Byeongho Heo and Wonjae Kim and Ming-Hsuan Yang},
+    year={2022},
+    journal={arXiv preprint arXiv:2204.07962},
+}
