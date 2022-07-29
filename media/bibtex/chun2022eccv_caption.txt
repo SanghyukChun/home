@@ -1,5 +1,6 @@
-@article{chun2022eccv_caption,
+@inproceedings{chun2022eccv_caption,
     title={ECCV Caption: Correcting False Negatives by Collecting Machine-and-Human-verified Image-Caption Associations for MS-COCO}, 
     author={Chun, Sanghyuk and Kim, Wonjae and Park, Song and Chang, Minsuk Chang and Oh, Seong Joon},
-    journal={arXiv preprint arXiv:2204.03359},
+    year={2022},
+    booktitle={European Conference on Computer Vision (ECCV)},
 }
