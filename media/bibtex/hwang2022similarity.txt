@@ -1,0 +1,6 @@
+@article{hwang2022similarity,
+    title={Similarity of Neural Architectures Based on Input Gradient Transferability},
+    author={Hwang, Jaehui Hwang and Han, Dongyoon Han and Heo, Byeongho Heo and Park, Song and Park, Chun, Sanghyuk and Lee, Jong-Seok},
+    year={2022},
+    journal={arXiv preprint arXiv:2210.11407},
+}
