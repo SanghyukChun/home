@@ -1,0 +1,6 @@
+@article{ko2022ggem,
+    title={Group Generalized Mean Pooling for Vision Transformer},
+    author={Ko, Byungsoo and Kim, Han-Gyu and Heo, Byeongho and Yun, Sangdoo and Chun, Sanghyuk and Gu, Geonmo and Kim, Wonjae},
+    year={2022},
+    journal={arXiv preprint arXiv:2212.04114},
+}
