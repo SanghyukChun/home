@@ -1,0 +1,6 @@
+@inproceedings{jung2023fairdro,
+    title={Re-weighting based Group Fairness Regularization via Classwise Robust Optimization},
+    author={Sangwon Jung and Taeeon Park and Sanghyuk Chun and Taesup Moon},
+    year={2023},
+    booktitle={International Conference on Learning Representations (ICLR)},
+}
