@@ -1,0 +1,6 @@
+@article{gu2023compodiff,
+    title={CompoDiff: Versatile Composed Image Retrieval With Latent Diffusion},
+    author={Gu, Geonmo and Chun, Sanghyuk and Jun, HeeJae and Kang, Yoohoon and Kim, Wonjae and Yun, Sangdoo},
+    year={2023},
+    journal={arXiv preprint arXiv:2303.11916},
+}
