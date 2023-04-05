@@ -1,0 +1,6 @@
+@article{moon2023pseudo_gt_recipes,
+    title={Three Recipes for Better 3D Pseudo-GTs of 3D Human Mesh Estimation in the Wild},
+    author={Moon, Gyeongsik and Choi, Hongsuk and Chun, Sanghyuk and Lee, Jiyoung and Yun, Sangdoo},
+    year={2023},
+    journal={CVPR 2023 Workshop on Computer Vision for Mixed Reality (CV4MR)},
+}
