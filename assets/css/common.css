@@ -26,6 +26,12 @@ a {
     }
 }
 
+@media (max-width: 768px) {
+    body {
+        font-size: 1em;
+    }
+}
+
 div.container {
     max-width: 1400px
 }
