@@ -1,6 +1,6 @@
-@article{park2023seit,
+@inproceedings{park2023seit,
     title={SeiT: Storage-Efficient Vision Training with Tokens Using 1% of Pixel Storage},
     author={Park, Song and Chun, Sanghyuk and Heo, Byeongho and Kim, Wonjae and Yun, Sangdoo},
     year={2023},
-    journal={arXiv preprint arXiv:2303.11114},
+    booktitle={International Conference on Computer Vision (ICCV)},
 }
