@@ -1,0 +1,6 @@
+@article{kim2023lcmae,
+    title={Longer-range Contextualized Masked Autoencoder},
+    author={Kim, Taekyung and Chun, Sanghyuk and Heo, Byeongho and Han, Dongyoon},
+    year={2023},
+    journal={arXiv preprint arXiv:2310.13593},
+}

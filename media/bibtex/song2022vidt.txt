@@ -1,5 +1,5 @@
 @inproceedings{song2022vidt,
-    title={ViDT: An Efficient and Effective Fully Transformer-based Object Detector}, 
+    title={{ViDT}: An Efficient and Effective Fully Transformer-based Object Detector},
     author={Hwanjun Song and Deqing Sun and Sanghyuk Chun and Varun Jampani and Dongyoon Han and Byeongho Heo and Wonjae Kim and Ming-Hsuan Yang},
     year={2022},
     booktitle={International Conference on Learning Representations (ICLR)},

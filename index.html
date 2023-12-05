@@ -45,7 +45,8 @@
                                 <li>Lead Research Scientist</li>
                                 <li>NAVER AI Lab</li>
                                 <li>sanghyuk.chun [at] gmail.com</li>
-                                <li><a href="https://scholar.google.co.kr/citations?user=4_uj0xcAAAAJ">Google Scholar</a> | <a href="https://github.com/SanghyukChun">Github</a> | <a href="https://twitter.com/SanghyukChun">Twitter</a> | <a href="media/CV_Sanghyuk_Chun_Public_11Sep23.pdf">CV</a> (as of September 11th, 2023)</li>
+                                <li><a href="https://scholar.google.co.kr/citations?user=4_uj0xcAAAAJ">Google Scholar</a> | <a href="https://github.com/SanghyukChun">Github</a> | <a href="https://twitter.com/SanghyukChun">Twitter</a></li>
+                                <li><a href="media/CV_Sanghyuk_Chun_Public_05Dec23.pdf">CV</a> (as of December 05th, 2023) | <a href="media/research_statement.pdf">research statement</a> (as of December 2023)</li>
                                 <!--<li><a href="https://scholar.google.co.kr/citations?user=4_uj0xcAAAAJ">Google Scholar</a> | <a href="https://www.semanticscholar.org/author/Sanghyuk-Chun/2647582">Semantic Scholar</a> | <a href="https://github.com/SanghyukChun">Github</a> | <a href="https://twitter.com/SanghyukChun">Twitter</a> | <a href="media/CV_Sanghyuk_Chun_Public_18Dec22.pdf">CV</a> (as of December 18th, 2022)</li>-->
                             </ul>
                         </div>
@@ -141,8 +142,10 @@
                 </div>
 
                 <div id="research" class="mt-5 mb-5 on-click-all-active">
-                    <h3>Research</h3>
+                    <!--<h3>Research: <small><span class="text-warning">Scalable</span> and <span class="text-success">Reliable Machine Learning</span> with <span class="text-danger">Language-guided Representation Learning</span></small></h3>-->
+                    <h3>Research: <small>Scalable and Reliable Machine Learning with Language-guided Representation Learning</small></h3>
                     <p>Ensuring the real-world applicability of machine learning (ML) models poses a primary challenge, namely, the ability to generalize effectively to unseen scenarios encountered beyond the training phase. There are three prominent scenarios frequently encountered in practical applications: (1) when input data significantly differs from the training data; (2) when the model faces the target behavior beyond the scope of training targets, such as unexplored labels; and (3) when the application needs human opinions or subjective value judgments. Addressing all three scenarios relies on more than just massive large-scale datasets; it demands the inclusion of human knowledge that extends beyond web-crawled content. Yet, the question remains: How can we effectively integrate large-scale training and human knowledge guidance? To answer the question, my research aims to develop large-scale ML models exhibiting greater controllability and interpretability, thereby enabling human intervention to guide model behavior, even beyond the training phase. My work revolves around three main research themes towards this goal: <span class="text-danger">Language-combined Representation Learning</span>, <span class="text-success">Machine learning reliability</span> and <span class="text-warning">Optimization techniques for large-scale ML</span>.</p>
+                    <p>More detailed statement can be found in <a href="media/research_statement.pdf">my research statement</a>.</p>
 
                     <details>
                     <summary><strong style="font-size: 1.2em">Click here to read more about my research</strong></summary>
@@ -155,6 +158,7 @@
                     </ul>
                     <p>How can we make a model comprehend human language alongside the target modality? To answer the question, I recently have worked on <span class="text-danger">text-conditioned diffusion models</span>. Especially, I am interested in utilizing the power of recent diffusion models for text-conditioned feature transforms or data augmentation. However, we need more versatility and controllability to adopt diffusion models to the desired tasks, e.g., localized conditions via providing region masks. My recent works have focused on the versatility and controllability of diffusion models, and applying diffusion models to non-generative downstream tasks, such as composed image retrieval (CIR) tasks.</p>
                     <ul>
+                        <li><i>G. Gu<sup>&#10059;</sup>, <strong>S. Chun<sup>&#10059;</sup></strong>, W. Kim, Y. Kang, S. Yun, <a href="#language-only-efficient-training-of-zero-shot-composed-image-ret">Language-only Efficient Training of Zero-shot Composed Image Retrieval</a>, <strong>preprint</strong></i></li>
                         <li><i>G. Gu<sup>&#10059;</sup>, <strong>S. Chun<sup>&#10059;</sup></strong>, W. Kim, H. Jun, Y. Kang, S. Yun, <a href="#compodiff-versatile-composed-image-retrieval-with-latent-diffusi">CompoDiff: Versatile Composed Image Retrieval With Latent Diffusion</a>, <strong>preprint</strong></i></li>
                         <li><i>G. Gu, <strong>S. Chun</strong>, W. Kim, H. Jun, Y, S. Yun, Y. Kang, <a href="#graphit-a-unified-framework-for-diverse-image-editing-tasks">Graphit: A Unified Framework for Diverse Image Editing Tasks</a>, <strong>open source</strong></i></li>
                     </ul>
@@ -285,6 +289,14 @@
                                 </li>
 
                                 <li class="list-group-item">
+                                    <strong>Language-only Efficient Training of Zero-shot Composed Image Retrieval.</strong>
+                                    <ul>
+                                        <li>Geonmo Gu<sup>&#10059;</sup>, <strong>Sanghyuk Chun</strong><sup>&#10059;</sup>, Wonjae Kim, Yoohoon Kang, Sangdoo Yun</li>
+                                        <li><strong><em>preprint.</em></strong> <a href="media/papers/gu2023lincir.pdf">paper</a> | <a href="https://github.com/navervision/lincir">code</a> | <a href="media/bibtex/gu2023lincir.txt">bibtex</a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="list-group-item">
                                     <strong>CompoDiff: Versatile Composed Image Retrieval With Latent Diffusion.</strong>
                                     <ul>
                                         <li>Geonmo Gu<sup>&#10059;</sup>, <strong>Sanghyuk Chun</strong><sup>&#10059;</sup>, Wonjae Kim, HeeJae Jun, Yoohoon Kang, Sangdoo Yun</li>
@@ -404,6 +416,14 @@
                                 <div class="clearfix"></div>
                             </div>
                             <ul class="list-group list-group-flush list-no-border">
+
+                                <li class="list-group-item li-arxiv">
+                                    <strong class="anchor-strong">Language-only Efficient Training of Zero-shot Composed Image Retrieval.</strong>
+                                    <ul>
+                                        <li>Geonmo Gu<sup>&#10059;</sup>, <strong>Sanghyuk Chun</strong><sup>&#10059;</sup>, Wonjae Kim, Yoohoon Kang, Sangdoo Yun</li>
+                                        <li><strong><em>preprint.</em></strong> <a href="media/papers/gu2023lincir.pdf">paper</a> | <a href="https://github.com/navervision/lincir">code</a> | <a href="media/bibtex/gu2023lincir.txt">bibtex</a></li>
+                                    </ul>
+                                </li>
 
                                 <li class="list-group-item li-arxiv">
                                     <strong class="anchor-strong">Longer-range Contextualized Masked Autoencoder.</strong>
@@ -797,6 +817,15 @@
                         </div>
                         <div class="tab-pane fade" id="nav-vl" role="tabpanel" aria-labelledby="nav-vl-tab">
                             <ul class="list-group list-group-flush list-no-border">
+
+                                <li class="list-group-item">
+                                    <strong>Language-only Efficient Training of Zero-shot Composed Image Retrieval.</strong>
+                                    <ul>
+                                        <li>Geonmo Gu<sup>&#10059;</sup>, <strong>Sanghyuk Chun</strong><sup>&#10059;</sup>, Wonjae Kim, Yoohoon Kang, Sangdoo Yun</li>
+                                        <li><strong><em>preprint.</em></strong> <a href="media/papers/gu2023lincir.pdf">paper</a> | <a href="https://github.com/navervision/lincir">code</a> | <a href="media/bibtex/gu2023lincir.txt">bibtex</a></li>
+                                    </ul>
+                                </li>
+
                                 <li class="list-group-item">
                                     <strong>Improved Probabilistic Image-Text Representations.</strong>
                                     <ul>

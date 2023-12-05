@@ -1,5 +1,5 @@
 @inproceedings{cha2021swad,
-    title={SWAD: Domain Generalization by Seeking Flat Minima},
+    title={{SWAD}: Domain Generalization by Seeking Flat Minima},
     author={Cha, Junbum and Chun, Sanghyuk and Lee, Kyungjae and Cho, Han-Cheol and Park, Seunghyun and Lee, Yunsung and Park, Sungrae},
     year={2021},
     booktitle={Neural Information Processing Systems (NeurIPS)},

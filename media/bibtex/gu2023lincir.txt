@@ -1,0 +1,6 @@
+@article{gu2023lincir,
+    title={Language-only Efficient Training of Zero-shot Composed Image Retrieval},
+    author={Gu, Geonmo and Chun, Sanghyuk and Kim, Wonjae and and Kang, Yoohoon and Yun, Sangdoo},
+    journal={arXiv preprint arXiv:2312.01998},
+    year={2023}
+}
