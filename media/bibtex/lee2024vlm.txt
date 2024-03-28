@@ -1,0 +1,6 @@
+@inproceedings{lee2024vlm,
+    title={Toward Interactive Regional Understanding in Vision-Large Language Models},
+    author={Lee, Jungbeom and Chun, Sanghyuk and Yun, Sangdoo},
+    year={2024},
+    booktitle={Annual Conference of the North American Chapter of the Association for Computational Linguistics (NAACL)},
+}
