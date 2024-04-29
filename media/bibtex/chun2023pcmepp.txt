@@ -1,4 +1,4 @@
-@inproceedings{chun2023pcmepp,
+@inproceedings{chun2024pcmepp,
     title={Improved Probabilistic Image-Text Representations},
     author={Chun, Sanghyuk},
     year={2024},

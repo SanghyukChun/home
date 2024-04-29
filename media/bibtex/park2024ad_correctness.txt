@@ -1,0 +1,6 @@
+@inproceedings{park2024ad_correctness,
+    title={What Does Automatic Differentiation Compute for Neural Networks?},
+    author={Park, Sejun and Chun, Sanghyuk and Lee, Wonyeol},
+    year={2024},
+    booktitle={International Conference on Learning Representations (ICLR)},
+}
