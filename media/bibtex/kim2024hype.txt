@@ -1,6 +1,6 @@
 @article{kim2024hype,
     title={Hyperbolic Entailment Filtering for Underspecified Images and Texts},
-    author={Kim, Wonjae and Chun, Sanghyuk and Kim, Taekyung and Han, Dongyoon and Yun, Sangdoo Yun},
+    author={Kim, Wonjae and Chun, Sanghyuk and Kim, Taekyung and Han, Dongyoon and Yun, Sangdoo},
     year={2024},
-    journal={arXiv preprint arXiv:2404.xxxxx},
+    journal={arXiv preprint arXiv:2404.17507},
 }
