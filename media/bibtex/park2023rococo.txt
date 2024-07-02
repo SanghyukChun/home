@@ -1,5 +1,5 @@
 @article{park2023rococo,
-    title={{RoCOCO}: Robust Benchmark {MS-COCO} to Stress-test Robustness of Image-Text Matching Models},
+    title={{RoCOCO}: Robust Benchmark of {MS-COCO} to Stress-test Robustness of Image-Text Matching Models},
     author={Park, Seulki and Um, Daeho and Yoon, Hajung and Chun, Sanghyuk and Yun, Sangdoo and Choi, Jin Young},
     year={2023},
     journal={arXiv preprint arXiv:2304.10727},
