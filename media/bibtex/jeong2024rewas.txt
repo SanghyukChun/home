@@ -1,0 +1,5 @@
+ @article{jeong2024rewas,
+    author={Yujin Jeong and Yunji Kim and Sanghyuk Chun and Jiyoung Lee},
+    title={Read, Watch and Scream! Sound Generation from Text and Video},
+    journal={arXiv preprint arXiv:2407.05551},
+}
