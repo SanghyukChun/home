@@ -1,7 +1,0 @@
-@article{gu2024compodiff,
-    title={{CompoDiff}: Versatile Composed Image Retrieval With Latent Diffusion},
-    author={Gu, Geonmo and Chun, Sanghyuk and Jun, HeeJae and Kang, Yoohoon and Kim, Wonjae and Yun, Sangdoo},
-    year={2024},
-    journal={Transactions on Machine Learning Research (TMLR)},
-    url={https://openreview.net/forum?id=mKtlzW0bWc},
-}
