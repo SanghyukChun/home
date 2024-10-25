@@ -1,0 +1,6 @@
+@article{chun2024prolip,
+    title={Probabilistic Language-Image Pre-Training},
+    author={Sanghyuk Chun and Wonjae Kim and Song Park and Sangdoo Yun},
+    year={2024},
+    journal={arXiv preprint arXiv:2410.18857},
+}
