@@ -1,0 +1,7 @@
+@inproceedings{jung2024ckd,
+    title={Do Counterfactually Fair Image Classifiers Satisfy Group Fairness? -- A Theoretical and Empirical Study},
+    author={Sangwon Jung and Sumin Yu and Sanghyuk Chun and Taesup Moon},
+    booktitle={Neural Information Processing Systems Datasets and Benchmarks Track (NeurIPS D&B)},
+    year={2024},
+    url={https://openreview.net/forum?id=hFDdSd6hSM}
+}

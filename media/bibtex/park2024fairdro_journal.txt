@@ -1,0 +1,10 @@
+@article{park2024fairdro_journal,
+    title = {FairDRO: Group fairness regularization via classwise robust optimization},
+    journal = {Neural Networks},
+    pages = {106891},
+    year = {2024},
+    issn = {0893-6080},
+    doi = {https://doi.org/10.1016/j.neunet.2024.106891},
+    url = {https://www.sciencedirect.com/science/article/pii/S0893608024008207},
+    author = {Taeeon Park and Sangwon Jung and Sanghyuk Chun and Taesup Moon},
+}
