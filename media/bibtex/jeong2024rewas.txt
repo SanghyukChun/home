@@ -1,6 +1,0 @@
- @inproceedings{jeong2025rewas,
-    title={Read, Watch and Scream! Sound Generation from Text and Video},
-    author={Yujin Jeong and Yunji Kim and Sanghyuk Chun and Jiyoung Lee},
-    year={2025},
-    booktitle={AAAI Conference on Artificial Intelligence},
-}
