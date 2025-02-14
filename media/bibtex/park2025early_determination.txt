@@ -1,0 +1,6 @@
+@article{park2025early_determination,
+    title={DNNs May Determine Major Properties of Their Outputs Early, with Timing Possibly Driven by Bias},
+    author={Park, Song and Chun, Sanghyuk and Heo, Byeongho and Han, Dongyoon},
+    year={2025},
+    journal={arXiv preprint arXiv:2502.08167},
+}
