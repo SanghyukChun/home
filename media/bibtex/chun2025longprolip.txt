@@ -1,0 +1,6 @@
+@inproceedings{chun2025longprolip,
+    title={LongProLIP: A Probabilistic Vision-Language Model with Long Context Text},
+    author={Chun, Sanghyuk and Yun, Sangdoo},
+    year={2025},
+    booktitle={ICLR Workshop on Quantify Uncertainty and Hallucination in Foundation Models},
+}
