@@ -1,6 +1,6 @@
-@inproceedings{chun2024prolip,
+@inproceedings{chun2025prolip,
     title={Probabilistic Language-Image Pre-Training},
-    author={Sanghyuk Chun and Wonjae Kim and Song Park and Sangdoo Yun},
+    author={Chun, Sanghyuk and Kim, Wonjae and Park, Song and Yun, Sangdoo},
     year={2025},
     booktitle={International Conference on Learning Representations (ICLR)},
 }
