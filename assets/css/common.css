@@ -131,6 +131,18 @@ a {
     }
 }
 
+img.profile {
+    width: 100%;
+    max-width: 250px
+}
+
+@media (min-width: 768px) {
+    img.profile {
+        width: 85%;
+        max-width: 250px
+    }
+}
+
 div.container {
     max-width: 900px
 }
@@ -215,11 +227,11 @@ ul.pl15 {
 }
 
 ul.list-no-border > li {
-    border: none;
+    /*border: none;*/
 }
 
 .no-border {
-    border: none;
+    /*border: none;*/
 }
 
 .top-bottom-border {
