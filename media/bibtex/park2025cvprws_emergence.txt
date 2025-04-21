@@ -1,0 +1,6 @@
+@inproceedings{park2025cvprws_emergence,
+    title={Emergence of Text Readability in Vision Language Models},
+    author={Park, Jaeyoo and Chun, Sanghyuk and Kim, Wonjae and Yun, Sangdoo and Han, Bohyung}
+    year={2025},
+    booktitle={2nd Workshop on Emergent Visual Abilities and Limits of Foundation Models at CVPR 2025},
+}
