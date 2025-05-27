@@ -1,0 +1,6 @@
+@article{chun2025multiplicity,
+    title={Multiplicity is an Inevitable and Inherent Challenge in Multimodal Learning},
+    author={Chun, Sanghyuk},
+    year={2025},
+    journal={arXiv preprint arXiv:2505.19614},
+}
