@@ -1,0 +1,6 @@
+@inproceedings{byun2025rtd,
+    title={An Efficient Post-hoc Framework for Reducing Task Discrepancy of Text Encoders for Composed Image Retrieval},
+    author={Byun, Jaeseok and Jeong, Seokhyeon and Kim, Wonjae and Chun, Sanghyuk and Moon, Taesup},
+    year={2025},
+    booktitle={European Conference on Computer Vision (ECCV)},
+}

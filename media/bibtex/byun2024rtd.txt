@@ -1,6 +1,0 @@
-@article{byun2024rtd,
-    title={Reducing Task Discrepancy of Text Encoders for Zero-Shot Composed Image Retrieval},
-    author={Byun, Jaeseok and Jeong, Seokhyeon and Kim, Wonjae and Chun, Sanghyuk and Moon, Taesup},
-    year={2024},
-    journal={arXiv preprint arXiv:2406.09188},
-}
