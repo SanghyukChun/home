@@ -1,0 +1,6 @@
+@article{park2025focus,
+    title={Mitigating Cross-Image Information Leakage in LVLMs for Multi-Image Tasks},
+    author={Park, Yeji and Lee, Minyoung and Chun, Sanghyuk and Choe, Junsuk},
+    year={2025},
+    journal={arXiv preprint arXiv:2508.13744},
+}
