@@ -1,0 +1,8 @@
+@inproceedings{
+lee2025seeing,
+title={Seeing What You Say: Expressive Image Generation from Speech},
+author={Jiyoung Lee and Song Park and Sanghyuk Chun and Soo-Whan Chung},
+booktitle={1st Workshop on Generative AI for Audio-Visual Content Creation},
+year={2025},
+url={https://openreview.net/forum?id=g9AZgNiniS}
+}
