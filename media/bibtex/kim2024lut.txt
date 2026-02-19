@@ -1,4 +1,4 @@
-@article{kim2024lut,
+@inproceedings{kim2024lut,
     title={Learning with Unmasked Tokens Drives Stronger Vision Learners},
     author={Kim, Taekyung and Chun, Sanghyuk and Heo, Byeongho and Han, Dongyoon},
     year={2024},

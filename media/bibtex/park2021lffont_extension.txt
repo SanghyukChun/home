@@ -1,15 +1,10 @@
 @article{park2022lffont_extension,
+    title={Few-shot font generation with weakly supervised localized representations},
     author={Park, Song and Chun, Sanghyuk and Cha, Junbum and Lee, Bado and Shim, Hyunjung},
-    journal = {IEEE Transactions on Pattern Analysis &amp; Machine Intelligence},
-    title = {Few-shot Font Generation with Weakly Supervised Localized Representations},
-    year = {5555},
-    volume = {},
-    number = {01},
-    issn = {1939-3539},
-    pages = {1-17},
-    keywords = {},
-    doi = {10.1109/TPAMI.2022.3196675},
-    publisher = {IEEE Computer Society},
-    address = {Los Alamitos, CA, USA},
-    month = {aug}
+    journal={IEEE transactions on pattern analysis and machine intelligence},
+    volume={46},
+    number={3},
+    pages={1479--1495},
+    year={2022},
+    publisher={IEEE}
 }

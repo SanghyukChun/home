@@ -1,0 +1,7 @@
+@inproceedings{chun2022shortcut_tutorial,
+    title = {Shortcut Learning in Machine Learning: Challenges, Analysis, Solutions},
+    author = {Sanghyuk Chun and Kyungwoo Song and Yonghan Jung},
+    booktitle = {ACM Conference on Fairness, Accountability, and Transparency (FAccT)},
+    pages = {10476--10501},
+    year = {2022},
+}
