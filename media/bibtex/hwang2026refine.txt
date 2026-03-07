@@ -1,6 +1,6 @@
 @article{hwang2026refine,
     title={Reinforced Fast Weights with Next-Sequence Prediction},
-    author={Hwang, Hee Seung Hwang and Wu, Xindi Wu and Chun, Sanghyuk and Russakovsky, Olga}
+    author={Hwang, Hee Seung and Wu, Xindi and Chun, Sanghyuk and Russakovsky, Olga}
     year={2026},
     journal={arXiv preprint arXiv:2602.16704},
 }
