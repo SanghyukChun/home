@@ -1,0 +1,6 @@
+@inproceedings{chun2026multiplicity,
+    title={Position: Multiplicity is an Inevitable and Inherent Challenge in Multimodal Learning},
+    author={Chun, Sanghyuk and Russakovsky, Olga},
+    year={2026},
+    booktitle={International Conference on Machine Learning (ICML)},
+}
