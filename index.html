@@ -45,7 +45,7 @@
                             </ul>
                         </div>
                         <div class="col-md-3 col-4" style="display: flex; align-items: center;">
-                            <img  src="assets/img/profile4.jpeg" alt="profile" class="profile rounded-circle shadow-lg">
+                            <img  src="assets/img/profile4.jpeg" alt="" class="profile rounded-circle shadow-lg">
                         </div>
                     </div>
                 </div>
@@ -71,9 +71,10 @@
                 <h3 id="news" class="mt-5">News</h3>
                 <div class="mb-5">
                     <ul class="pl15 mb-0">
+                        <li>_5/2026 : Being nominated as <strong class="text-danger">CVPR 2026 outstanding reviewers (top 5%)</strong> <a href="https://cvpr.thecvf.com/Conferences/2026/ProgramCommittee#outstanding-reviewer">[link]</a>.</li>
                         <li>_4/2026 : 1 paper <sup><a href="#multiplicity-is-an-inevitable-and-inherent-challenge-in-multimod">[Multiplicity]</a></sup> is accepted at the ICML position track</li>
                         <li>_4/2026 : <a href="#reinforced-fast-weights-with-next-sequence-prediction">ReFINE</a> <strong class="text-danger">recieved the best paper award</strong> at ICLR <a href="https://ttu-iclr2026.github.io/">Workshop on Test-Time Updates (TTU)</a>!</li>
-                        <li>_3/2026 : Serving as an area chair at <a href="https://neurips.cc/">NeurIPS 2026</a></li>
+                        <!--<li>_3/2026 : Serving as an area chair at <a href="https://neurips.cc/">NeurIPS 2026</a></li>-->
                         <li>_3/2026 : 1 paper <sup><a href="#reinforced-fast-weights-with-next-sequence-prediction">[ReFINE]</a></sup> is accepted at ICLR <a href="https://ttu-iclr2026.github.io/">Workshop on Test-Time Updates (TTU)</a> and <strong class="text-danger">selected as Oral presentation!</strong></li>
                         <li>_1/2026 : Serving as an area chair at <a href="https://icml.cc/">ICML 2026</a></li>
                     </ul>
@@ -184,15 +185,73 @@
                 <div id="current_service" class="mt-5 mb-5">
                     <h3>Current Service Appointments</h3>
                     <ul>
-                        <li><strong>Area Chair</strong> - <span class="badge bg-danger">NeurIPS 2026</span> <span class="badge bg-danger">ICML 2026</span> <span class="badge bg-danger">ICLR 2026</span> <span class="badge bg-danger">AISTATS 2026</span></li>
+                        <!--<li><strong>Area Chair</strong> - <span class="badge bg-danger">NeurIPS 2026</span> <span class="badge bg-danger">ICML 2026</span> <span class="badge bg-danger">ICLR 2026</span> <span class="badge bg-danger">AISTATS 2026</span></li>-->
+                        <li><strong>Area Chair</strong> - <span class="badge bg-danger">ICML 2026</span> <span class="badge bg-danger">ICLR 2026</span> <span class="badge bg-danger">AISTATS 2026</span></li>
                         <li><strong>Action Editor</strong> - <span class="badge bg-success">TMLR</span></li>
-                        <li><strong>Reviewer</strong> - <span class="badge bg-warning">ECCV 2026</span> <span class="badge bg-warning">CVPR 2026</span></li>
+                        <li><strong>Reviewer</strong> - <span class="badge bg-warning">NeurIPS 2026 Workshop Proposals</span> <span class="badge bg-warning">ECCV 2026</span> <span class="badge bg-warning">CVPR 2026</span></li>
                     </ul>
                 </div>
 
                 <hr>
                 <h3 id="papers" class="mt-5">Research</h3>
-                <p class="text-justified">I am interested in machine learning and its reliability. My research philosophy aims to (1) scalability and (2) theoretical or conceptual soundness. Recently, I have focused on multi-modal learning (e.g., vision-language and audio-visual), but I am open to exploring a broader range of topics. More details about my research can be found in my <a href="media/research_statement.pdf">research statement</a> (as of December 2023). Representative works that reflect my research approach and significant contributions are <span class="li-selected">highlighted</span>, with the most significant works emphasized in <span class="li-selected-two">orange</span>.</p>
+                <p class="text-justified">I am interested in machine learning and its reliability. My research philosophy aims to (1) scalability and (2) theoretical or conceptual soundness. I have been particularly interested in the following research directions (but not limited to):</p>
+                <!--<p>See my <a href="media/research_statement.pdf">research statement</a></p>-->
+                <ul class="list-unstyled">
+                    <li>
+                        <details>
+                            <summary><strong>Multiplicity and Diversity in Multimodal representation learning.</strong> We often assume a single ground truth when building datasets, training models, and evaluating model performance. However, many multimodal tasks actually have multiple plausible interpretations, matches, captions, or decisions <a href="#multiplicity-is-an-inevitable-and-inherent-challenge-in-multimod">[C36]</a>. My recent research aims to address this challenge:
+                                <a href="#comet-context-and-multiplicity-decomposition-for-multimodal-unce">Chun, et al., 2026 [A9]</a>,
+                                <a href="#multiplicity-is-an-inevitable-and-inherent-challenge-in-multimod">Chun and Russakovsky, 2026 [C36]</a>,
+                                <a href="#probabilistic-language-image-pre-training">Chun, et al., 2025, [C34]</a>, and more.
+                                (click to see more)
+                            </summary>
+                            <ul class="pl15">
+                                <li>
+                                    Multiplicity is an inevitable and inherent challenge in multimodal learning <a href="#multiplicity-is-an-inevitable-and-inherent-challenge-in-multimod">[Chun and Russakovsky, 2026. C36]</a>.
+                                    My previous study on MS-COCO Caption showed that there exist a lot of plausible hidden positives which are treated as negatives (so called "False Negatives")
+                                    <a href="#eccv-caption-correcting-false-negatives-by-collecting-machine-an">[Chun, et al., 2022. C21]</a>.
+                                </li>
+                                <li>
+                                    I've worked on addressing this issue in model training by probabilistic frameworks (named probabilistic embeddings)
+                                    <a href="#probabilistic-embeddings-for-cross-modal-retrieval">[Chun, et al., 2021. C11]</a>,
+                                    <a href="#improved-probabilistic-image-text-representations">[Chun, 2024. C25]</a>,
+                                    <a href="#probabilistic-language-image-pre-training">[Chun, et al., 2025. C34]</a>, 
+                                    <a href="#longprolip-a-probabilistic-vision-language-model-with-long-conte">[Chun and Yun, 2025. W11]</a>.
+                                    Notably, PCME [C11] is the first probabilistic embeddings work in this field, and ProLIP [C34] is the first large-scale pre-trained probabilistic model competitive with the state-of-the-art vision-language models.
+                                </li>
+                                <li>
+                                    Multiplicity also affects to dataset construction. In HYPE <a href="#hype-hyperbolic-entailment-filtering-for-underspecified-images-a">[Kim, et al., 2024. C31]</a>, we showed that collecting image-text pairs based on "specificity" (which is a similar concept with multiplicity) can outperform the existing state-of-the-art dataset filtering methods using external models with large-scale pre-training.
+                                </li>
+                                <li>
+                                    One way to control multiplicity is to give more specific descriptions or instructions to the given inputs. For example, by conditioning with more instructions, we may achieve a more specified representation of the given input. With this principle, I actively worked on composed image retrieval (CIR), which is a conditional retrieval with a text instruction. I authored a few milestone works in zero-shot CIR <a href="#compodiff-versatile-composed-image-retrieval-with-latent-diffusi">[Gu and Chun, et al. 2024. J3]</a>, <a href="#language-only-efficient-training-of-zero-shot-composed-image-ret">[Gu and Chun, et al. 2024. C27]</a>, and a post-hoc improvement method <a href="#an-efficient-post-hoc-framework-for-reducing-task-discrepancy-of">[Byun and Jeong, et al. 2025. C35]</a>. Although I don't actively work this field as of now, I still think this is an interesting approach to address the problem.
+                                </li>
+                                <li>
+                                    Recently, I have extended this perspective to uncertainty estimation in multimodal large language models.
+                                    In <a href="#comet-context-and-multiplicity-decomposition-for-multimodal-unce">Chun, et al., 2026 [A9]</a>,
+                                    we showed that MLLM uncertainty can be decomposed into context-specific and multiplicity-specific components. This decomposition shows that multiplicity is a structured source of uncertainty, and enables more reliable and efficient uncertainty estimation.
+                                </li>
+                            </ul>
+                        </details>
+                    </li>
+                    <li>
+                        <details>
+                            <summary>
+                                <strong>Reliable machine learning.</strong>
+                                Our model should not learn undesirable shortcut features <sup><a href="#learning-de-biased-representations-with-biased-representations">[ReBias]</a> <a href="#which-shortcut-cues-will-dnns-choose-a-study-from-the-parameter">[Shortcut learning]</a> <a href="#facct-2022-translation-dialogue-tutorial-shortcut-learning-in-ma">[Shortcut learning tutorial]</a></sup>, or should be robust to unseen corruptions <sup><a href="#cutmix-regularization-strategy-to-train-strong-classifiers-with">[CutMix]</a> <a href="#an-empirical-evaluation-on-robustness-and-uncertainty-of-regular">[RegEval]</a> <a href="#re-labeling-imagenet-from-single-to-multi-labels-from-global-to">[ReLabel]</a> <a href="#rethinking-spatial-dimensions-of-vision-transformers">[PiT]</a></sup> or significant distribution shifts <sup><a href="#swad-domain-generalization-by-seeking-flat-minima">[SWAD]</a></sup> <sup><a href="#domain-generalization-by-mutual-information-regularization-with">[MIRO]</a></sup>. Also we need to make a machine not discriminative to certain demographic groups <sup><a href="#learning-fair-classifiers-with-partially-annotated-group-labels">[CGL]</a></sup> <sup><a href="#re-weighting-based-group-fairness-regularization-via-classwise-r">[FairDRO]</a></sup>. We expect a model says "I don't know" when they get unexpected inputs <sup><a href="#probabilistic-embeddings-for-cross-modal-retrieval">[PCME]</a></sup> <sup><a href="#improved-probabilistic-image-text-representations">[PCME++]</a></sup> <sup><a href="#probabilistic-language-image-pre-training">[ProLIP]</a></sup> <sup><a href="#comet-context-and-multiplicity-decomposition-for-multimodal-unce">[CoMet]</a></sup>.
+At least, we expect a model can explain why it makes a such decision <sup><a href="#toward-interpretable-music-tagging-with-self-attention">[MTSA]</a> <a href="#visualizing-and-understanding-self-attention-based-music-tagging">[MTSA WS]</a> <a href="#evaluating-weakly-supervised-object-localization-methods-right">[WSOL eval]</a> <a href="#evaluation-for-weakly-supervised-object-localization-protocol-me">[WSOL Eval journal]</a></sup>, how different model design choices will change model decisions <sup><a href="#similarity-of-neural-architectures-based-on-input-gradient-trans">[NetSim]</a></sup> and how it can be fixed (e.g., More data collection? More annotations? Filtering?). My research focuses on expanding machine knowledge from "just prediction" to "logical reasoning". (click to see more)</span>
+                            </summary>
+                            <ul class="pl15">
+                                <li>
+                                    <strong>Representative topics and projects:</strong> Shortcut / Bias (ICML'20 <a href="#learning-de-biased-representations-with-biased-representations">[C6]</a>, ICLR'22 <a href="#which-shortcut-cues-will-dnns-choose-a-study-from-the-parameter">[C16]</a>), Domain generalization (NeurIPS'21 <a href="#swad-domain-generalization-by-seeking-flat-minima">[C15]</a>, ECCV'22 <a href="#domain-generalization-by-mutual-information-regularization-with">[C20]</a>), Reliable Evaluation (CVPR'20 <a href="#evaluating-weakly-supervised-object-localization-methods-right">[C5]</a>, TPAMI'22 <a href="#evaluation-for-weakly-supervised-object-localization-protocol-me">[J1]</a>, ECCV'22 <a href="#eccv-caption-correcting-false-negatives-by-collecting-machine-an">[C21]</a>, ECCV WS'24 <a href="#rococo-robustness-benchmark-of-ms-coco-to-stress-test-image-text">[W9]</a>), Algorithmic Fairness (CVPR'22 <a href="#learning-fair-classifiers-with-partially-annotated-group-labels">[C18]</a>, ICLR'23 <a href="#re-weighting-based-group-fairness-regularization-via-classwise-r">[C23]</a>, NeurIPS'24 <a href="#do-counterfactually-fair-image-classifiers-satisfy-group-fairnes">[C32]</a>, Neural Networks'25 <a href="#fairdro-group-fairness-regularization-via-classwise-robust-optim">[J4]</a>) Adversarial Attack/Defense (ICLR WS'19 <a href="#where-to-be-adversarial-perturbations-added-investigating-and-ma">[W1]</a>, ECCV'24 <a href="#similarity-of-neural-architectures-using-adversarial-attack-tran">[C30]</a>), Robustness (ICML WS'19 <a href="#an-empirical-evaluation-on-robustness-and-uncertainty-of-regular">[W3]</a>, ICCV'19 <a href="#cutmix-regularization-strategy-to-train-strong-classifiers-with">[C3]</a>, ArXiv'21 <a href="#styleaugment-learning-texture-de-biased-representations-by-style">[A4]</a>), and Uncertainty Estimation (ICLR'25 <a href="#probabilistic-language-image-pre-training">[C34]</a>, ArXiv'25 <a href="#comet-context-and-multiplicity-decomposition-for-multimodal-unce">[A9]</a>).
+                                </li>
+                                <li>
+                                    In this research direction, what I value most is whether a method is grounded in a clear theoretical or conceptual motivation. Since reliability problems often arise from hidden failure modes, purely heuristic fixes may improve benchmark numbers without actually addressing the underlying issue. Therefore, my main focus is to understand why a model fails, what problem a method is supposed to solve, and whether the proposed approach can address that problem in a principled way.
+                                </li>
+                        </details>
+                    <p></p>
+                    </li>
+                </ul>
+                <p>Representative works that reflect my research approach and significant contributions are <span class="li-selected">highlighted</span>, with the most significant works emphasized in <span class="li-selected-two">orange</span>.</p>
                 <p>
                     <strong>(C: peer-reviewed conference, W: peer-reviewed workshop, A: arxiv preprint, O: others)<br>
                    <span class="text-danger">(<sup>&#10059;</sup>authors contributed equally)</strong></span><br>
@@ -206,11 +265,19 @@
                     </div>
                     <ul class="list-group list-group-flush list-no-border">
 
+                        <li class="list-group-item li-arxiv li-selected-two">
+                            <strong class="anchor-strong">CoMet: Context and Multiplicity Decomposition for Multimodal Uncertainty Estimation.</strong>
+                            <ul>
+                                <li><strong>Sanghyuk Chun</strong>, William Yang, Amaya Dharmasiri, Olga Russakovsky</li>
+                                <li><strong><em>preprint.</em></strong> <a href="media/papers/chun2026comet.pdf">paper</a> | <a href="https://github.com/princetonvisualai/comet_uncertainty">code</a> | <a href="media/bibtex/chun2026comet.txt">bibtex</a></li>
+                            </ul>
+                        </li>
+
                         <li class="list-group-item li-conference li-selected-two">
                             <strong class="anchor-strong">Multiplicity is an Inevitable and Inherent Challenge in Multimodal Learning.</strong>
                             <ul>
                                 <li><strong>Sanghyuk Chun</strong>, Olga Russakovsky</li>
-                                <li><strong><em>ICML 2026 Position.</em></strong> <a href="media/papers/chun2025multiplicity.pdf">paper</a> | <a href="media/bibtex/chun2026multiplicity.txt">bibtex</a></li>
+                                <li><strong><em>ICML 2026 Position.</em></strong> <a href="media/papers/chun2026multiplicity.pdf" aria-label="Paper: Multiplicity is an Inevitable and Inherent Challenge in Multimodal Learning">paper</a> | <a href="media/bibtex/chun2026multiplicity.txt" aria-label="Bibtex: Multiplicity is an Inevitable and Inherent Challenge in Multimodal Learning">bibtex</a></li>
                             </ul>
                         </li>
 
@@ -753,7 +820,8 @@
                                 <ul>
                                     <li>ICLR 2025-2026</li>
                                     <li>AISTATS 2025-2026</li>
-                                    <li>NeurIPS 2024-2026</li>
+                                    <!--<li>NeurIPS 2024-2026</li>-->
+                                    <li>NeurIPS 2024-2025</li>
                                     <li>NeurIPS Dataset and Benchmark (D&amp;B) track 2023-2024</li>
                                     <li>ICML 2025-2026</li>
                                 </ul>
@@ -785,7 +853,8 @@
                         <ul class="list-unstyled">
                             <li><strong>Reviewer:</strong>
                                 <ul>
-                                    <li>Conference: ICML 2021-2024, NeurIPS 2020-2023 <strong class="text-danger">(NeurIPS 2023 Top reviewer)</strong>, ICLR 2021-2024, AAAI 2021, CVPR 2020-2026 <strong class="text-danger">(CVPR 2020, 2021, 2022, 2025 Outstanding reviewer)</strong>, ICCV/ECCV 2021-2026, WACV 2021, ACCV 2020, CHI 2023</li>
+                                    <li>Conference: ICML 2021-2024, NeurIPS 2020-2023 <strong class="text-danger">(NeurIPS 2023 Top reviewer)</strong>, ICLR 2021-2024, AAAI 2021, CVPR 2020-2026 <strong class="text-danger">(CVPR 2020, 2021, 2022, 2025, 2026 Outstanding reviewer)</strong>, ICCV/ECCV 2021-2026, WACV 2021, ACCV 2020, CHI 2023</li>
+                                    <li>Proposals: NeurIPS Workshop Proposals 2026</li>
                                     <li>Journal: <a href="https://jmlr.org/tmlr/">Transactions on Machine Learning Research (TMLR)</a> <strong><a class="text-danger" href="https://jmlr.org/tmlr/expert-reviewers.html">(TMLR 2023 Expert Reviewer)</a></strong>, <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34">Transactions on Pattern Analysis and Machine Intelligence (TPAMI)</a>, <a href="https://www.springer.com/journal/11263">International Journal of Computer Vision (IJCV)</a>, <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=83">IEEE Transactions on Image Processing (TIP)</a></li>
                                 </ul>
                             </li>
@@ -797,6 +866,8 @@
                     <h4 class="card-header">Honors and Awards</h4>
                     <div class="card-body">
                         <ul class="pl15 mb-0">
+                            <li><a href="https://media.eventhosts.cc/Conferences/CVPR2026/CVPR_main_conf_2026_15.pdf">Outstanding reviewer award, CVPR 2026</a></li>
+                            <li><a href="https://ttu-iclr2026.github.io/">Best paper award, Workshop on Test-Time Updates at ICLR 2026</a></li>
                             <li><a href="https://gradschool.princeton.edu/financial-support/fellowships/princeton-fellowships/francis-robbins-upton-fellowship">Francis Robbins Upton Fellowship in Engineering, Princeton University (2025)</a></li>
                             <li><a href="https://cvpr.thecvf.com/Conferences/2025/ProgramCommittee#all-outstanding-reviewer">Outstanding reviewer award, CVPR 2025</a></li>
                             <li><a href="https://neurips.cc/Conferences/2023/ProgramCommittee#top-reivewers">Top reviewer, NeurIPS 2023</a></li>
@@ -804,7 +875,7 @@
                             <li><a href="https://cvpr2022.thecvf.com/outstanding-reviewers">Outstanding reviewer award, CVPR 2022</a></li>
                             <li><a href="https://cvpr2021.thecvf.com/node/184">Outstanding reviewer award, CVPR 2021</a></li>
                             <li><a href="https://cvpr2020.thecvf.com/reviewer-acknowledgements#outstanding-reviewers">Outstanding reviewer award, CVPR 2020</a></li>
-                            <li><a href="https://ai4cc.net/2020/">Best paper runner-up award, AI for Content Creation Workshop at CVPR 2020</a></li>
+                            <li><a href="https://ai-for-content-creation.github.io/2020/">Best paper runner-up award, AI for Content Creation Workshop at CVPR 2020</a></li>
                         </ul>
                     </div>
                 </div>
@@ -927,13 +998,13 @@ pip install eccv_caption</pre>
                             <div class="row m-3">
                                 <div class="col-md-2">
                                     <figure class="figure">
-                                        <img src="assets/img/project_hangul_event.png" width="100%" alt="Hangul" class="figure-img img-fluid rounded">
+                                        <img src="assets/img/project_hangul_event.png" width="100%" alt="" class="figure-img img-fluid rounded">
                                     </figure>
                                     <figure class="figure">
-                                        <img src="assets/img/project_hangul_event2.png" width="100%" alt="Hangul" class="figure-img img-fluid rounded">
+                                        <img src="assets/img/project_hangul_event2.png" width="100%" alt="" class="figure-img img-fluid rounded">
                                     </figure>
                                     <figure class="figure">
-                                        <img src="assets/img/dmfont-teaser.gif" width="100%" alt="DM-Font teasor" class="figure-img img-fluid rounded">
+                                        <img src="assets/img/dmfont-teaser.gif" width="100%" alt="" class="figure-img img-fluid rounded">
                                     </figure>
                                 </div>
                                 <div class="col-md-10">
@@ -941,9 +1012,9 @@ pip install eccv_caption</pre>
                                     <p>Distributed at 2019 Hangul's day (한글날), <a href="https://clova.ai/handwriting/list.html">[Full font list]</a></p>
                                     <ul class="list-unstyled">
                                         <li>Hangul (Korean alphabet, 한글) originally consists of only 24 sub-letters (ㄱ, ㅋ, ㄴ, ㄷ, ㅌ, ㅁ, ㅂ, ㅍ, ㄹ, ㅅ, ㅈ, ㅊ, ㅇ, ㅎ, ㅡ, ㅣ, ㅗ, ㅏ, ㅜ, ㅓ, ㅛ, ㅑ, ㅠ, ㅕ), but by combining them, there exist 11,172 valid characters in Hangul. For example, "한" is a combination of ㅎ, ㅏ, and ㄴ, and "쐰" is a combination of ㅅ, ㅅ, ㅗ, ㅣ, and ㄴ. It makes generating a new Hangul font be very expensive and time-consuming. Meanwhile, <a href="https://hangeul.naver.com/2014/history">since 2008</a>, Naver has distributed Korean fonts for free (named <a href="https://hangeul.naver.com/2017/nanum">Nanum fonts, 나눔 글꼴</a>).</li>
-                                        <li>In 2019, we developed a technology for fully-personalized Hangul generation only with 152 characters. We opened <a href="https://clova.ai/handwriting">an event page</a> where users can submit their own handwriting. The full generated font list can be found in <a href="https://clova.ai/handwriting/list.html">[this link]</a>. Details for the generation technique used for the service was presented in Deview 2019 <a href="https://deview.kr/2019/schedule/294">[Link]</a>.</li>
-                                        <li>This work was also extended to the few-shot generation based on the compositionality. See the papers in AI for Content Creation Workshop (AICCW) at CVPR 2020 (short paper) <a href="media/papers/cha2020cvprws.pdf">[Link]</a>, ECCV 2020 (full paper) <a href="media/papers/cha2020eccv_dmfont.pdf">[Link]</a>, AAAI 2021 <a href="media/papers/park2021aaai_lffont.pdf">[Link]</a>, ICCV 2021 <a href="media/papers/park2021iccv_mxfont.pdf">[Link]</a>, and journal extension <a href="media/papers/park2021lffont_extension.pdf">[Link]</a>.</li>
-                                        <li class="text-danger"><strong>[BONUS] You can play with my handwriting <a href="handwriting.html">here</a></strong></li>
+                                        <li>In 2019, we developed a technology for fully-personalized Hangul generation only with 152 characters, and <a href="https://clova.ai/handwriting/list.html">released 109 user handwriting fonts.</a> <a href="https://deview.kr/2019/schedule/294">Details for the generation technique used for the service was presented in Deview 2019.</a></li>
+                                        <li>This work was also extended to the few-shot generation based on the compositionality. See the papers in AI for Content Creation Workshop (AICCW) at <a href="media/papers/cha2020cvprws.pdf" aria-label="Hangul Handwriting Font Generation CVPR Workshop short paper">CVPR 2020 (short paper)</a>, <a href="media/papers/cha2020eccv_dmfont.pdf" aria-label="Hangul Handwriting Font Generation ECCV full paper">ECCV 2020 (full paper)</a>, <a href="media/papers/park2021aaai_lffont.pdf" aria-label="Hangul Handwriting Font Generation AAAI full paper">AAAI 2021</a>, <a href="media/papers/park2021iccv_mxfont.pdf" aria-label="Hangul Handwriting Font Generation ICCV full paper">ICCV 2021</a>, and <a href="media/papers/park2021lffont_extension.pdf" aria-label="Hangul Handwriting Font Generation journal extension of the AAAI paper">journal extension</a>.</li>
+                                        <li class="text-danger"><strong>[BONUS] <a href="handwriting.html">You can play with my handwriting.</a></strong></li>
                                     </ul>
                                 </div>
                             </div>
@@ -953,7 +1024,7 @@ pip install eccv_caption</pre>
                             <div class="row m-3">
                                 <div class="col-md-2">
                                     <figure class="figure">
-                                        <img src="assets/img/project_sticker_recommendation_example.png" width="100%" alt="example sticker" class="figure-img img-fluid rounded">
+                                        <img src="assets/img/project_sticker_recommendation_example.png" width="100%" alt="" class="figure-img img-fluid rounded">
                                         <figcaption class="figure-caption">Example emoji from <a href="https://store.line.me">LINE sticker shop</a>.<figcaption>
                                     </figure>
                                 </div>
@@ -974,9 +1045,9 @@ pip install eccv_caption</pre>
                                 <div class="card-body">
                                     <p>Topics: <span class="badge bg-success">Reliable ML</span> <span class="badge bg-danger">Vision-Language</span> <span class="badge bg-warning">Modality-specific tasks</span> <span class="badge bg-info">Generative models</span> <span class="badge bg-dark">Other topics</a></p>
                                     <ul class="list-unstyled mb-0">
-                                        <li><span class="badge round-pill bg-danger text-danger">_</span> <span class="badge round-pill">&nbsp;&nbsp;</span> <a href="https://jnwnlee.github.io/">Junwon Lee</a> (KAIST, 2025) <span class="text-danger"> -- AVL representation learning</span></li>
+                                        <li><span class="badge round-pill bg-danger text-danger">_</span> <span class="badge round-pill">&nbsp;&nbsp;</span> <a href="https://jnwnlee.github.io/">Junwon Lee</a> (KAIST, 2025) <span class="text-danger"> <a href="https://jnwnlee.github.io/selva-demo/">[SelVA]</a> -- AVL representation learning</span></li>
                                         <li><span class="badge round-pill bg-danger text-danger">_</span> <span class="badge round-pill">&nbsp;&nbsp;</span> <a href="https://sehyunkwon.github.io/">Sehyun Kwon</a> (Seoul National University, 2024) <span class="text-danger"> -- VL representation learning</span></li>
-                                        <li><span class="badge round-pill bg-danger text-danger">_</span> <span class="badge round-pill">&nbsp;&nbsp;</span> <a href="https://bellos1203.github.io/">Jaeyoo Park</a> (Seoul National University, 2024) <span class="text-danger"> -- VL representation learning</span></li>
+                                        <li><span class="badge round-pill bg-danger text-danger">_</span> <span class="badge round-pill">&nbsp;&nbsp;</span> <a href="https://bellos1203.github.io/">Jaeyoo Park</a> (Seoul National University, 2024) <a href="#emergence-of-text-readability-in-vision-language-models">[W12]</a> <span class="text-danger"> -- VL representation learning</span></li>
                                         <li><span class="badge round-pill bg-danger text-danger">_</span> <span class="badge round-pill">&nbsp;&nbsp;</span> <a href="https://park-jungin.github.io/">Jungin Park</a> (Visiting researcher, 2024) <span class="text-danger"> -- VL representation learning</span></li>
                                         <li><span class="badge round-pill bg-danger text-danger">_</span> <span class="badge round-pill">&nbsp;&nbsp;</span> <a href="https://eugene6923.github.io/">Yujin Jeong</a> (Korea University, 2024) <a href="#read-watch-and-scream-sound-generation-from-text-and-video">[C33/W10]</a> <span class="text-danger"> -- AVL representation learning</span></li>
                                         <li><span class="badge round-pill bg-danger text-danger">_</span> <span class="badge round-pill bg-success text-success">_</span> <a href="https://scholar.google.co.kr/citations?user=D9U_ohsAAAAJ&hl=en">Heesun Bae</a> (KAIST, 2023) <span class="text-danger"> -- VL representation learning under noisy environment</span></li>
@@ -1016,7 +1087,7 @@ pip install eccv_caption</pre>
                             <div class="row m-3">
                                 <div class="col-md-2">
                                     <figure class="figure">
-                                        <img src="assets/img/project_kakao.png" width="100%" alt="Kakao" class="figure-img img-fluid rounded">
+                                        <img src="assets/img/project_kakao.png" width="100%" alt="" class="figure-img img-fluid rounded">
                                     </figure>
                                 </div>
                                 <div class="col-md-10">
@@ -1037,7 +1108,7 @@ pip install eccv_caption</pre>
                             <div class="row m-3">
                                 <div class="col-md-2">
                                     <figure class="figure">
-                                        <img src="assets/img/project_ippn.png" width="100%" alt="IPPN" class="figure-img img-fluid rounded">
+                                        <img src="assets/img/project_ippn.png" width="100%" alt="" class="figure-img img-fluid rounded">
                                         <figcaption class="figure-caption">System overview.<figcaption>
                                     </figure>
                                 </div>
@@ -1055,7 +1126,7 @@ pip install eccv_caption</pre>
                             <div class="row m-3">
                                 <div class="col-md-2">
                                     <figure class="figure">
-                                        <img src="assets/img/project_daumshopping.png" width="100%" alt="Daum Shopping" class="figure-img img-fluid rounded">
+                                        <img src="assets/img/project_daumshopping.png" width="100%" alt="" class="figure-img img-fluid rounded">
                                     </figure>
                                 </div>
                                 <div class="col-md-10">
@@ -1077,7 +1148,7 @@ pip install eccv_caption</pre>
                             <div class="row m-3">
                                 <div class="col-md-2">
                                     <figure class="figure">
-                                        <img src="assets/img/project_naverlabs.png" width="100%" alt="Naver Labs" class="figure-img img-fluid rounded">
+                                        <img src="assets/img/project_naverlabs.png" width="100%" alt="" class="figure-img img-fluid rounded">
                                     </figure>
                                 </div>
                                 <div class="col-md-10">
@@ -1094,7 +1165,7 @@ pip install eccv_caption</pre>
                             <div class="row m-3">
                                 <div class="col-md-2">
                                     <figure class="figure">
-                                        <img src="assets/img/project_ium.png" width="100%" alt="IUM-SOCIUS" class="figure-img img-fluid rounded">
+                                        <img src="assets/img/project_ium.png" width="100%" alt="" class="figure-img img-fluid rounded">
                                     </figure>
                                 </div>
                                 <div class="col-md-10">
@@ -1114,30 +1185,72 @@ pip install eccv_caption</pre>
                     <summary class="mb-3"><span style="font-size: 1.25rem; color: #303030;">Education and Career</span></summary>
                 <div class="card mb-4">
                     <div class="card-body">
-                        <ul class="list-unstyled mb-0">
-                            <li>Ph.D. (2025.09 - Now), Computer Science, Princeton University</li>
-                            <li>M.S. (2014.03 - 2016.02), School of Electrical Engineering, KAIST</li>
-                            <li>B.S. (2009.03 - 2014.02), School of Electrical Engineering and School of Management Science (double major), KAIST</li>
+                        <strong>Education</strong>
+                        <ul class="timeline">
+                            <li>
+                                <strong><img src="assets/img/Princeton_logo.png" alt="" class="inline-icon"> (2025.07 - Now) Ph.D.</strong>
+                                <p>Computer Science, Princeton University</p>
+                            </li>
+                            <li>
+                                <strong><img src="assets/img/KAIST_logo.svg" alt="" class="inline-icon"> (2014.03 - 2016.02) M.S.</strong>
+                                <p>School of Electrical Engineering, KAIST</p>
+                            </li>
+                            <li>
+                                <strong><img src="assets/img/KAIST_logo.svg" alt="" class="inline-icon"> (2009.03 - 2014.02) B.S.</strong>
+                                <p>School of Electrical Engineering and School of Management Science (double major), KAIST</p>
+                            </li>
                         </ul>
                         <hr>
-                        <ul class="pl15">
-                            <li>Lead research scientist at NAVER AI Lab (Feb. 2018 - July. 2025)</li>
-                            <ul class="pl15">
-                            <li>Leader of ML Research @NAVER AI Lab (Feb. 2022 - July. 2025)</li>
-                            <li>Tech leader at NAVER AI Lab (Oct. 2020 - Jan. 2022)</li>
-                            <li>Visiting researcher at <a href="https://europe.naverlabs.com/">Naver Labs Europe</a> (Oct. 2019 - Dec. 2019)</li>
-                            <li>Research scientist at NAVER CLOVA (Feb. 2018 - Sep. 2020)</li>
-                            </ul>
-                            <li>Research engineer at advanced recommendation team (ART) in <a href="https://www.kakaocorp.com/">Kakao</a> (Feb. 2016 - Feb. 2018)</li>
-                            <li>Research internship at <a href="https://www.naverlabs.com/">Naver Labs</a> (Aug. 2015 - Dec. 2015)</li>
-                            <li>Master's degree in Electrical Engineering from KAIST (advisor: <a href="http://alinlab.kaist.ac.kr/shin.html">Jinwoo Shin</a>) (Mar. 2014 - Feb. 2016)</li>
-                            <li>Undergraduate researcher at <a href="http://alinlab.kaist.ac.kr/">Algorithmic Intelligence Lab</a> in KAIST (Fall 2013)</li>
-                            <li>Undergraduate researcher at <a href="http://www.ndsl.kaist.edu/">Networked and Distributed Computing System Lab</a> in KAIST (Summer 2013)</li>
-                            <ul class="pl15">
-                            <li>Participated as an undergraduate researcher for <a href="https://www.usenix.org/system/files/conference/atc15/atc15-paper-lee-jihyung.pdf">FloSIS: A Highly Scalable Network Flow Capture System for Fast Retrieval and Storage Efficiency</a> (presented at USENIC ATC 2015) (I developed the index system described in Section 4.)</li>
-                            </ul>
-                            <li>Software engineering internship at <a href="http://i-um.com/">IUM-SOCIUS</a> (Jun. 2012 - Jan. 2013)</li>
+                        <strong>Career</strong>
+                        <ul class="timeline">
+                            <li>
+                                <strong><img src="assets/img/project_naver.png" alt="" class="inline-icon"> (2020.10 - 2025.07) Lead research scientist</strong>
+                                <p>Leader of ML Research, NAVER AI Lab</p>
+                            </li>
+                            <li>
+                                <strong><img src="assets/img/project_naver.png" alt="" class="inline-icon"> (2019.10 - 2019.12) Lead research scientist</strong>
+                                <p>Visiting researcher at <a href="https://europe.naverlabs.com/">Naver Labs Europe</a></p>
+                            </li>
+                            <li>
+                                <strong><img src="assets/img/project_naver.png" alt="" class="inline-icon"> (2018.02 - 2020.09) Research scientist</strong>
+                                <p>NAVER CLOVA</p>
+                            </li>
+                            <li>
+                                <strong><img src="assets/img/project_kakao.png" alt="" class="inline-icon"> (2016.02 - 2018.02) Research engineer</strong>
+                                <p>Advanced recommendation team (ART), <a href="https://www.kakaocorp.com/">Kakao</a></p>
+                            </li>
+                            <li>
+                                <strong><img src="assets/img/project_naverlabs.png" alt="" class="inline-icon"> (2015.08 - 2015.12) Research internship</strong>
+                                <p><a href="https://www.naverlabs.com/">Naver Labs</a></p>
+                            </li>
+                            <li>
+                                <strong><img src="assets/img/project_ium.png" alt="" class="inline-icon"> (2012.06 - 2013.01) Software engineering internship</strong>
+                                <p>IUM-SOCIUS</p>
+                            </li>
                         </ul>
+                        <!--<ul class="list-unstyled mb-0">-->
+                            <!--<li>Ph.D. (2025.09 - Now), Computer Science, Princeton University</li>-->
+                            <!--<li>M.S. (2014.03 - 2016.02), School of Electrical Engineering, KAIST</li>-->
+                            <!--<li>B.S. (2009.03 - 2014.02), School of Electrical Engineering and School of Management Science (double major), KAIST</li>-->
+                        <!--</ul>-->
+                        <!--<ul class="pl15">-->
+                            <!--<li>Lead research scientist at NAVER AI Lab (Feb. 2018 - July. 2025)</li>-->
+                            <!--<ul class="pl15">-->
+                            <!--<li>Leader of ML Research @NAVER AI Lab (Feb. 2022 - July. 2025)</li>-->
+                            <!--<li>Tech leader at NAVER AI Lab (Oct. 2020 - Jan. 2022)</li>-->
+                            <!--<li>Visiting researcher at <a href="https://europe.naverlabs.com/">Naver Labs Europe</a> (Oct. 2019 - Dec. 2019)</li>-->
+                            <!--<li>Research scientist at NAVER CLOVA (Feb. 2018 - Sep. 2020)</li>-->
+                            <!--</ul>-->
+                            <!--<li>Research engineer at advanced recommendation team (ART) in <a href="https://www.kakaocorp.com/">Kakao</a> (Feb. 2016 - Feb. 2018)</li>-->
+                            <!--<li>Research internship at <a href="https://www.naverlabs.com/">Naver Labs</a> (Aug. 2015 - Dec. 2015)</li>-->
+                            <!--<li>Master's degree in Electrical Engineering from KAIST (advisor: <a href="http://alinlab.kaist.ac.kr/shin.html">Jinwoo Shin</a>) (Mar. 2014 - Feb. 2016)</li>-->
+                            <!--<li>Undergraduate researcher at <a href="http://alinlab.kaist.ac.kr/">Algorithmic Intelligence Lab</a> in KAIST (Fall 2013)</li>-->
+                            <!--<li>Undergraduate researcher at <a href="http://www.ndsl.kaist.edu/">Networked and Distributed Computing System Lab</a> in KAIST (Summer 2013)</li>-->
+                            <!--<ul class="pl15">-->
+                            <!--<li>Participated as an undergraduate researcher for <a href="https://www.usenix.org/system/files/conference/atc15/atc15-paper-lee-jihyung.pdf">FloSIS: A Highly Scalable Network Flow Capture System for Fast Retrieval and Storage Efficiency</a> (presented at USENIC ATC 2015) (I developed the index system described in Section 4.)</li>-->
+                            <!--</ul>-->
+                            <!--<li>Software engineering internship at <a href="http://i-um.com/">IUM-SOCIUS</a> (Jun. 2012 - Jan. 2013)</li>-->
+                        <!--</ul>-->
                     </div>
                 </div>
                 </details>
