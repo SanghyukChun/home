@@ -159,7 +159,7 @@ div.p2rem {
     padding: 2rem 2rem;
 }
 
-ul.pl15 {
+.pl15 {
     padding-left: 1.5em;
 }
 
@@ -237,4 +237,47 @@ ul.list-no-border > li {
 .top-bottom-border {
     border-top: 0.5px solid #707070;
     border-bottom: 0.5px solid #707070;
+}
+
+
+/* https://bootsnipp.com/snippets/xrKXW */
+ul.timeline {
+    list-style-type: none;
+    position: relative;
+}
+ul.timeline:before {
+    content: ' ';
+    background: #d4d9df;
+    display: inline-block;
+    position: absolute;
+    left: 29px;
+    width: 2px;
+    height: 100%;
+    z-index: 400;
+}
+ul.timeline > li {
+    margin: 20px 0;
+    padding-left: 20px;
+}
+ul.timeline > li:before {
+    content: ' ';
+    background: white;
+    display: inline-block;
+    position: absolute;
+    border-radius: 50%;
+    border: 3px solid;
+    /*#22c0e8;*/
+    left: 20px;
+    width: 20px;
+    height: 20px;
+    z-index: 400;
+}
+
+
+.inline-icon {
+  width: 1.1em;
+  height: 1.1em;
+  object-fit: contain;
+  vertical-align: -0.15em;
+  margin-right: 0.35em;
 }

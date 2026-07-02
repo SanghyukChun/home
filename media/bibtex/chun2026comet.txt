@@ -1,0 +1,6 @@
+@article{chun2026comet,
+    title={{CoMet}: Context and Multiplicity Decomposition for Multimodal Uncertainty Estimation},
+    author={Chun, Sanghyuk and Yang, William and Dharmasiri, Amaya and Russakovsky, Olga},
+    year={2026},
+    journal={arXiv preprint arXiv:2606.32012},
+}
