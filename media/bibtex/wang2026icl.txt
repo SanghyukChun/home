@@ -1,0 +1,6 @@
+@inproceedings{wang2026icl,
+    title={In-Context Learning Can Help Vision Language Models Overcome Training Prior},
+    author={Wang, Kun and Wu, Xindi and Chun, Sanghyuk and Russakovsky, Olga and Tureci Esin}
+    year={2026},
+    booktitle={Neural Information Processing Systems (NeurIPS)},
+}
