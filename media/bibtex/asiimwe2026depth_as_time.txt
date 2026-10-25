@@ -1,0 +1,6 @@
+@article{asiimwe2026depth_as_time,
+    title={Depth as Time in One-Step Generative Models}, 
+    author={Arnold Caleb Asiimwe and William Yang and Sanghyuk Chun and Esin Tureci and Olga Russakovsky},
+    year={2026},
+    journal={arXiv preprint arXiv:2610.03626},
+}
