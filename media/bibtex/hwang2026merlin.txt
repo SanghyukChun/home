@@ -1,0 +1,6 @@
+@inproceedings{hwang2026merlin,
+    title={Multi-State Linear Attention with Generalized Second-Order Routing},
+    author={Hee Seung Hwang and Sanghyuk Chun and Xindi Wu and Olga Russakovsky and Zhiwei Deng},
+    year={2026},
+    journal={arXiv preprint arXiv:2610.37645},
+}

@@ -1,0 +1,6 @@
+@article{magid2026copyingdefenseprotectingimages,
+    title={Copying As Defense: Protecting Images from Editing By Eliciting Model Copying}, 
+    author={Salma Abdel Magid and Sanghyuk Chun and Eric Slyman and Kushal Kafle and Olga Russakovsky},
+    year={2026},
+    journal={arXiv preprint arXiv:2610.35566},
+}
